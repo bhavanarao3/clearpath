@@ -35,6 +35,7 @@ jobs:
       - name: Build, run unit tests, and generate coverage report
         run: |
           # Build the project
+          rm -rf build install
           colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug
           
           # Run tests and generate the coverage data
