@@ -5,9 +5,9 @@ set -e
 # Source ROS 2 setup file
 source /opt/ros/humble/setup.bash
 
-# Install necessary ROS 2 packages
+# Install necessary ROS 2 and Gazebo packages
 sudo apt update
-sudo apt install -y ros-humble-ament-cmake python3-colcon-common-extensions
+sudo apt install -y ros-humble-ament-cmake python3-colcon-common-extensions ros-humble-gazebo-ros-pkgs
 
 # Create a workspace directory
 mkdir -p ~/ros2_ws/src
@@ -17,6 +17,9 @@ cp -r . ~/ros2_ws/src/project
 
 # Change to the workspace directory
 cd ~/ros2_ws
+
+# Set gazebo_msgs_DIR if needed
+export gazebo_msgs_DIR=/opt/ros/humble/share/gazebo_msgs/cmake
 
 # Build the project with coverage flags
 colcon build --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--coverage" -DCMAKE_BUILD_TYPE=Debug
