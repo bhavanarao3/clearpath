@@ -43,10 +43,12 @@ jobs:
           genhtml build/test_coverage.info --output-directory build/coverage-report
 
       # Step 6: Upload coverage data to Codecov
-      - name: Upload coverage to Codecov
+      - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4
         with:
-          file: build/test_coverage.info
           token: ${{ secrets.CODECOV_TOKEN }} # Required for private repositories
-          flags: unittests  # Custom flag to categorize this coverage data (optional)
-          name: coverage-report
+          files: ${{github.workspace}}/build/test_coverage.info
+          fail_ci_if_error: true # optional (default = false)
+          verbose: true # optional (default = false)
+          disable_search: true # optional (default = false)
+          plugin: none         # optional (xcode, gcov, pycoverage)
