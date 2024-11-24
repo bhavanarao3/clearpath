@@ -140,7 +140,7 @@ if(WANT_COVERAGE)
   # unit test coverage:
   setup_target_for_coverage_lcov ( # use lcov to generate coverage report
     NAME test_coverage          # target name
-    EXECUTABLE ctest    # what to run inside the build directory?
+    EXECUTABLE ctest || true  # what to run inside the build directory?
                                  #   '|| true' --> continue coverage even if ctest failed
     EXCLUDE
       "app/main.cpp"     # Unit test does not run app, so don't analyze it
