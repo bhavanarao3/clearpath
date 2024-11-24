@@ -33,6 +33,3 @@ lcov --capture --directory build --output-file coverage.info
 lcov --remove coverage.info '/opt/*' '/usr/*' '*/test/*' --output-file coverage_filtered.info
 genhtml coverage_filtered.info --output-directory coverage_report
 
-# Copy the coverage info file to the GitHub workspace
-cp coverage_filtered.info $GITHUB_WORKSPACE/build/test_coverage.info
-
