@@ -24,14 +24,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Install some system pacakges
+      # Install system packages
       - name: Install build packages
         run: |
           sudo apt update
           sudo apt install -y software-properties-common
           sudo apt install -y doxygen lcov gcovr
 
-      # Step 3: Build and run unit tests, generate coverage report
+      # Install ROS 2 and dependencies
+      - name: Install ROS 2 dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            ros-humble-ament-cmake \
+            ros-humble-rosidl-typesupport-c \
+            ros-humble-rosidl-generator-c \
+            ros-humble-builtin-interfaces \
+            ros-humble-std-msgs \
+            python3-pip
+          # Install Python dependencies for ament package support
+          python3 -m pip install --upgrade setuptools
+          python3 -m pip install ament-package
+
+      # Step 3: Build the project and run unit tests
       - name: Build, run unit tests, and generate coverage report
         run: |
           # Build the project
@@ -42,7 +57,7 @@ jobs:
           colcon test
           lcov --directory build/ --capture --output-file build/test_coverage_merged.info
 
-      # Step 4: Upload coverage result to Codecov
+      # Step 4: Upload coverage results to Codecov
       - name: Upload coverage results to Codecov
         uses: codecov/codecov-action@v4
         with:
