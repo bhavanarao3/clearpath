@@ -21,11 +21,13 @@ jobs:
         with:
           ros-distro: humble
 
-      # Step 3: Resolve empy and em namespace conflict
-      - name: Resolve empy and em namespace conflict
+      # Step 3: Resolve empy namespace conflict
+      - name: Fix empy conflict
         run: |
-          pip uninstall -y em
+          pip uninstall -y em empy
           pip install empy==3.3.4
+          sudo find /usr/local/lib/python3.10/dist-packages/ -name "em*" -exec rm -rf {} +
+
 
       # Step 4: Install dependencies (including lcov, if not already installed)
       - name: Install dependencies
