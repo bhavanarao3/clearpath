@@ -25,7 +25,7 @@ jobs:
       - name: Resolve empy and em namespace conflict
         run: |
           pip uninstall -y em
-          pip install empy
+          pip install empy==3.3.4
 
       # Step 4: Install dependencies (including lcov, if not already installed)
       - name: Install dependencies
