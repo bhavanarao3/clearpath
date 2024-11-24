@@ -17,7 +17,7 @@ jobs:
 
       # Step 2: Set up ROS 2
       - name: Set up ROS 2
-        uses: ros-tooling/setup-ros@v3.0  # Updated to a working version of ros-tooling
+        uses: ros-tooling/setup-ros@v0.3  # Updated to a working version of ros-tooling
         with:
           ros-distro: humble
 
