@@ -2,6 +2,13 @@
 
 set -e
 
+# Source ROS 2 setup file
+source /opt/ros/humble/setup.bash
+
+# Install necessary ROS 2 packages
+sudo apt update
+sudo apt install -y ros-humble-ament-cmake python3-colcon-common-extensions
+
 # Create a workspace directory
 mkdir -p ~/ros2_ws/src
 
