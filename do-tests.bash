@@ -7,12 +7,24 @@ echo "System information:"
 uname -a
 lsb_release -a
 
+# Clone your repository to make sure it's available
+echo "Cloning the clearpath repository..."
+git clone https://github.com/bhavanarao3/clearpath.git
+cd clearpath
+
 # Set up ROS workspace
 echo "Setting up ROS workspace..."
 source /opt/ros/humble/setup.bash
+
+# Initialize and update rosdep (required for installing dependencies)
+echo "Initializing rosdep..."
+sudo rosdep init
+rosdep update
+
+# Source the correct setup file from the workspace
 source $PWD/install/setup.bash  # Correct the path to your setup.bash
 
-# Install dependencies (if any)
+# Install dependencies
 echo "Installing dependencies..."
 rosdep install --from-paths src --ignore-src -r -y
 
@@ -22,7 +34,6 @@ colcon build --symlink-install
 
 # Run unit tests with coverage
 echo "Running tests and generating coverage report..."
-# Run tests using colcon test
 colcon test --event-handler console_cohesion+ --output-dir /tmp/test_results
 
 # Generate a combined coverage report
