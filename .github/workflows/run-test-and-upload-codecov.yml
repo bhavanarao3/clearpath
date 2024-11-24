@@ -18,7 +18,7 @@ jobs:
 
       # Step 2: Set up ROS environment (for ROS2)
       - name: Set up ROS 2
-        uses: ros-tooling/setup-ros@v0.2.0
+        uses: ros-tooling/setup-ros@v0.3
         with:
           ros-distro: humble
 
