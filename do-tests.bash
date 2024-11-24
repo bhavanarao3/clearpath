@@ -10,7 +10,7 @@ lsb_release -a
 # Set up ROS workspace
 echo "Setting up ROS workspace..."
 source /opt/ros/humble/setup.bash
-source ~/your_workspace/install/setup.bash  # Adjust path to your workspace
+source ~/clearpath/install/setup.bash  # Adjust path to your workspace
 
 # Install dependencies (if any)
 echo "Installing dependencies..."
