@@ -29,7 +29,8 @@ jobs:
         run: |
           # Install system dependencies
           sudo apt update
-          sudo apt install -y doxygen lcov gcovr ros-humble-ament-cmake
+          sudo apt install -y software-properties-common
+          sudo apt install -y doxygen lcov gcovr
 
       - name: Set ament_cmake path
         run: |
