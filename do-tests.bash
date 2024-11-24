@@ -18,6 +18,8 @@ source /opt/ros/humble/setup.bash
 
 # Initialize and update rosdep (required for installing dependencies)
 echo "Initializing rosdep..."
+# Remove the existing sources list file
+sudo rm /etc/ros/rosdep/sources.list.d/20-default.list
 sudo rosdep init
 rosdep update
 
