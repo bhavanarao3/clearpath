@@ -21,14 +21,14 @@ export gazebo_msgs_DIR=/opt/ros/humble/share/gazebo_msgs/cmake
 rm -rf install log build
 
 # Build the project with coverage flags using merged layout
-colcon build --merge-install --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--coverage" -DCMAKE_BUILD_TYPE=Debug
+colcon build --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--coverage" -DCMAKE_BUILD_TYPE=Debug
 
 # Source the workspace
 source install/setup.bash
 
 # Run the tests and generate coverage report only if build was successful
 if [ $? -eq 0 ]; then
-    colcon test --merge-install
+    colcon test --event-handlers console_direct+
 
     # Generate coverage report
     lcov --capture --directory build --output-file coverage.info
