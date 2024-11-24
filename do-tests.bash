@@ -24,7 +24,7 @@ colcon build --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--cove
 source install/setup.bash
 
 # Run the tests without rebuilding
-colcon test --no-build
+colcon test --skip-build
 
 # Generate coverage report
 lcov --capture --directory build --output-file coverage.info
@@ -33,10 +33,3 @@ genhtml coverage_filtered.info --output-directory coverage_report
 
 # Copy the coverage info file to the GitHub workspace
 cp coverage_filtered.info $GITHUB_WORKSPACE/build/test_coverage.info
-
-# Upload the coverage report to Codecov
-curl -s https://codecov.io/bash > codecov.sh
-bash codecov.sh -f coverage_filtered.info
-
-# Print the coverage report
-lcov --list coverage_filtered.info
