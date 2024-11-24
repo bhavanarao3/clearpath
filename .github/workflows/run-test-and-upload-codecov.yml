@@ -9,53 +9,58 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-run-upload:
-    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
-    
-    defaults:
-      run:
-        shell: bash  # Use bash for shell commands
-
+  build:
+    runs-on: ubuntu-latest
     container:
-      image: osrf/ros:humble-desktop  # Use ROS Humble from Docker Hub
+      image: osrf/ros:humble-desktop
 
     steps:
-      # Step 1: Checkout the repository
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Install dependencies and fix empy installation
-      - name: Install system dependencies and fix empy issue
-        run: |
-          # Install system dependencies
-          sudo apt update
-          sudo apt install -y software-properties-common
-          sudo apt install -y doxygen lcov gcovr ros-humble-ament-cmake python3-ament-package ros-humble-rosidl-typesupport-c
-
-      - name: Set ament_cmake path
-        run: |
-          echo "CMAKE_PREFIX_PATH=/opt/ros/humble" >> $GITHUB_ENV
-
-      - name: Source ROS 2 environment
+      # Setup ROS 2 environment
+      - name: Set up ROS 2 environment
         run: |
           source /opt/ros/humble/setup.bash
+          sudo apt-get update
+          sudo apt-get install -y python3-pip
+          python3 -m pip install --upgrade setuptools
+          python3 -m pip install ament-package
+          sudo apt-get install -y ros-humble-rosidl-typesupport-c ros-humble-rosidl-generator-c ros-humble-builtin-interfaces ros-humble-std-msgs
 
-      # Step 3: Build and run unit tests, generate coverage report
-      - name: Build, run unit tests, and generate coverage report
+      # Install necessary build tools and dependencies
+      - name: Install build dependencies
         run: |
-          # Build the project
-          rm -rf build install
-          colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug
-          
-          # Run tests and generate the coverage data
-          colcon test
-          lcov --directory build/ --capture --output-file build/test_coverage_merged.info
+          sudo apt-get update
+          sudo apt-get install -y build-essential python3-colcon-common-extensions
 
-      # Step 4: Upload coverage result to Codecov
-      - name: Upload coverage results to Codecov
-        uses: codecov/codecov-action@v4
+      # Install ROS 2 dependencies
+      - name: Install ROS 2 dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y ros-humble-rosidl-typesupport-c ros-humble-rosidl-generator-c ros-humble-builtin-interfaces ros-humble-std-msgs
+          rosdep update
+
+      # Build the workspace
+      - name: Build workspace
+        run: |
+          source /opt/ros/humble/setup.bash
+          cd ~/workspace
+          colcon build --symlink-install
+
+      # Run tests and generate coverage report
+      - name: Run tests and generate coverage report
+        run: |
+          source /opt/ros/humble/setup.bash
+          cd ~/workspace
+          ./do-tests.bash
+
+      # Upload coverage results to Codecov
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}  # Required for private repositories
+          token: ${{ secrets.CODECOV_TOKEN }}
           files: ${{ github.workspace }}/build/test_coverage_merged.info
-          fail_ci_if_error: true  # Fail the CI if there are any errors
-          verbose: true  # Show detailed information in the log
+          fail_ci_if_error: true
+          verbose: true
