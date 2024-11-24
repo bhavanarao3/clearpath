@@ -1,52 +1,58 @@
-name: CI Workflow
+name: CI Workflow with Unit Tests and Codecov
 
 on:
   push:
-    branches: ["main", "object_detection_navigation"]
+    branches: [ "main", "object_detection_navigation" ]
   pull_request:
-    branches: ["main", "object_detection_navigation"]
+    branches: [ "main", "object_detection_navigation" ]
+    types: [opened]
+  workflow_dispatch:
 
 jobs:
-  build-and-test:
-    runs-on: ubuntu-22.04
+  build-run-upload:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+    
+    defaults:
+      run:
+        shell: bash  # Use bash for shell commands
+
+    container:
+      image: osrf/ros:humble-desktop  # Use ROS Humble from Docker Hub
 
     steps:
       # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up ROS 2
-      - name: Set up ROS 2
-        uses: ros-tooling/setup-ros@v0.3  # Updated to a working version of ros-tooling
-        with:
-          ros-distro: humble
-
-      # Step 3: Install dependencies
-      - name: Install dependencies
+      # Step 2: Install dependencies and fix empy installation
+      - name: Install system dependencies and fix empy issue
         run: |
-          sudo apt-get update
-          sudo apt-get install -y lcov python3-pip
-          pip install --upgrade pip
-          sudo apt-get install -y python3-colcon-common-extensions
-
-      # Step 4: Build the project
-      - name: Build the project
-        run: |
-          colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug
-
-      # Step 5: Run tests and collect coverage data
-      - name: Run tests and collect coverage data
-        run: |
-          colcon test 
-          lcov --directory build/ --capture --output-file build/test_coverage.info
+          # Remove conflicting 'em' package
+          sudo rm /usr/local/bin/em.py || true
+          sudo rm -rf /usr/local/lib/python3.10/dist-packages/em || true
           
-      # Step 6: Upload coverage reports to Codecov
-      - name: Upload coverage reports to Codecov
+          # Install required version of empy
+          pip install empy==3.3.4
+
+          # Install system dependencies
+          sudo apt update
+          sudo apt install -y doxygen lcov gcovr
+
+      # Step 3: Build and run unit tests, generate coverage report
+      - name: Build, run unit tests, and generate coverage report
+        run: |
+          # Build the project
+          colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug
+          
+          # Run tests and generate the coverage data
+          colcon test
+          lcov --directory build/ --capture --output-file build/test_coverage_merged.info
+
+      # Step 4: Upload coverage result to Codecov
+      - name: Upload coverage results to Codecov
         uses: codecov/codecov-action@v4
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} # Required for private repositories
-          files: ${{github.workspace}}/build/test_coverage.info
-          fail_ci_if_error: true # optional (default = false)
-          verbose: true # optional (default = false)
-          disable_search: true # optional (default = false)
-          plugin: none         # optional (xcode, gcov, pycoverage)
+          token: ${{ secrets.CODECOV_TOKEN }}  # Required for private repositories
+          files: ${{ github.workspace }}/build/test_coverage_merged.info
+          fail_ci_if_error: true  # Fail the CI if there are any errors
+          verbose: true  # Show detailed information in the log
