@@ -1,0 +1,110 @@
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml
+
+from launch.actions import IncludeLaunchDescription
+^
+                                              'worlds', 'empty_world.world')
+                                              ^
+import random
+^
+def generate_block(i):
+^
+              '-file', model_path + '/trash_block/model.sdf',
+              ^
+              '-x', str(x_pos),
+              ^
+              '-y', str(y_pos),
+              ^
+              '-z', '0.0',
+              ^
+              '-Y', '0.0'],
+              ^
+def generate_launch_description():
+^
+from launch.actions import IncludeLaunchDescription
+^
+                                              'worlds', 'empty_world.world')
+                                              ^
+import random
+^
+def generate_block(i):
+^
+              '-file', model_path + '/trash_block/model.sdf',
+              ^
+              '-x', str(x_pos),
+              ^
+              '-y', str(y_pos),
+              ^
+              '-z', '0.0',
+              ^
+              '-Y', '0.0'],
+              ^
+def generate_launch_description():
+^
+2     E127 continuation line over-indented for visual indent
+10    E128 continuation line under-indented for visual indent
+4     E302 expected 2 blank lines, found 1
+2     F401 'random' imported but unused
+2     F811 redefinition of unused 'IncludeLaunchDescription' from line 3
+
+./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:6:1: F811 redefinition of unused 'IncludeLaunchDescription' from line 3
+
+./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:25:47: E127 continuation line over-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:2:1: F401 'random' imported but unused
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:8:1: E302 expected 2 blank lines, found 1
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:19:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:20:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:21:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:22:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:23:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:27:1: E302 expected 2 blank lines, found 1
+
+./launch/collector_robot.launch.py:6:1: F811 redefinition of unused 'IncludeLaunchDescription' from line 3
+
+./launch/collector_robot.launch.py:25:47: E127 continuation line over-indented for visual indent
+
+./launch/spawn_trash.launch.py:2:1: F401 'random' imported but unused
+
+./launch/spawn_trash.launch.py:8:1: E302 expected 2 blank lines, found 1
+
+./launch/spawn_trash.launch.py:19:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:20:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:21:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:22:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:23:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:27:1: E302 expected 2 blank lines, found 1
+
+
+8 files checked
+20 errors
+
+'E'-type errors: 16
+'F'-type errors: 4
+
+Checked files:
+
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py
+* ./install/project_clearpath/share/project_clearpath/launch/spawn_tbot3_custom.py
+* ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py
+* ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py
+* ./launch/spawn_tbot3_custom.py
+* ./launch/collector_robot.launch.py
+* ./launch/spawn_trash.launch.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml'

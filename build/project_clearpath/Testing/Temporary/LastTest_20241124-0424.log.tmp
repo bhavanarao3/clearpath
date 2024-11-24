@@ -1,0 +1,685 @@
+Start testing: Nov 23 23:24 EST
+----------------------------------------------------------
+1/10 Testing: cppcheck
+1/10 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml"
+Directory: /home/ana/final/project_clearpath
+"cppcheck" start time: Nov 23 23:24 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Nov 23 23:24 EST
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: flake8
+2/10 Test: flake8
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml"
+Directory: /home/ana/final/project_clearpath
+"flake8" start time: Nov 23 23:24 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml
+from launch.actions import IncludeLaunchDescription
+^
+                                              'worlds', 'empty_world.world')
+                                              ^
+import random
+^
+def generate_block(i):
+^
+              '-file', model_path + '/trash_block/model.sdf',
+              ^
+              '-x', str(x_pos),
+              ^
+              '-y', str(y_pos),
+              ^
+              '-z', '0.0',
+              ^
+              '-Y', '0.0'],
+              ^
+def generate_launch_description():
+^
+from launch.actions import IncludeLaunchDescription
+^
+                                              'worlds', 'empty_world.world')
+                                              ^
+import random
+^
+def generate_block(i):
+^
+              '-file', model_path + '/trash_block/model.sdf',
+              ^
+              '-x', str(x_pos),
+              ^
+              '-y', str(y_pos),
+              ^
+              '-z', '0.0',
+              ^
+              '-Y', '0.0'],
+              ^
+def generate_launch_description():
+^
+2     E127 continuation line over-indented for visual indent
+10    E128 continuation line under-indented for visual indent
+4     E302 expected 2 blank lines, found 1
+2     F401 'random' imported but unused
+2     F811 redefinition of unused 'IncludeLaunchDescription' from line 3
+
+./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:6:1: F811 redefinition of unused 'IncludeLaunchDescription' from line 3
+
+./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:25:47: E127 continuation line over-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:2:1: F401 'random' imported but unused
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:8:1: E302 expected 2 blank lines, found 1
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:19:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:20:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:21:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:22:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:23:15: E128 continuation line under-indented for visual indent
+
+./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:27:1: E302 expected 2 blank lines, found 1
+
+./launch/collector_robot.launch.py:6:1: F811 redefinition of unused 'IncludeLaunchDescription' from line 3
+
+./launch/collector_robot.launch.py:25:47: E127 continuation line over-indented for visual indent
+
+./launch/spawn_trash.launch.py:2:1: F401 'random' imported but unused
+
+./launch/spawn_trash.launch.py:8:1: E302 expected 2 blank lines, found 1
+
+./launch/spawn_trash.launch.py:19:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:20:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:21:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:22:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:23:15: E128 continuation line under-indented for visual indent
+
+./launch/spawn_trash.launch.py:27:1: E302 expected 2 blank lines, found 1
+
+
+8 files checked
+20 errors
+
+'E'-type errors: 16
+'F'-type errors: 4
+
+Checked files:
+
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py
+* ./install/project_clearpath/share/project_clearpath/launch/spawn_tbot3_custom.py
+* ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py
+* ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py
+* ./launch/spawn_tbot3_custom.py
+* ./launch/collector_robot.launch.py
+* ./launch/spawn_trash.launch.py
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml'
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Failed.
+"flake8" end time: Nov 23 23:24 EST
+"flake8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: lint_cmake
+3/10 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml"
+Directory: /home/ana/final/project_clearpath
+"lint_cmake" start time: Nov 23 23:24 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml
+CMakeLists.txt:15: Do not use mixed case commands [readability/wonkycase]
+CMakeLists.txt:21: Do not use mixed case commands [readability/wonkycase]
+CMakeLists.txt:58: Extra spaces between 'if' and its () [whitespace/extra]
+CMakeLists.txt:105: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:132: Mismatching spaces inside () after command [whitespace/mismatch]
+CMakeLists.txt:141: Extra spaces between 'setup_target_for_coverage_lcov' and its () [whitespace/extra]
+CMakeLists.txt:141: Mismatching spaces inside () after command [whitespace/mismatch]
+CMakeLists.txt:144: Weird indentation; use 2 spaces [whitespace/indent]
+CMakeLists.txt:153: Extra spaces between 'setup_target_for_coverage_gcovr_html' and its () [whitespace/extra]
+CMakeLists.txt:153: Mismatching spaces inside () after command [whitespace/mismatch]
+CMakeLists.txt:156: Weird indentation; use 2 spaces [whitespace/indent]
+CMakeLists.txt:156: Line ends in whitespace [whitespace/eol]
+
+app/CMakeLists.txt:2: Mismatching spaces inside () after command [whitespace/mismatch]
+app/CMakeLists.txt:18: Mismatching spaces inside () after command [whitespace/mismatch]
+app/CMakeLists.txt:18: Line ends in whitespace [whitespace/eol]
+
+build/project_clearpath/CMakeDoxygenDefaults.cmake:30: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:31: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:31: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:32: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:32: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:33: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:33: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:34: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:34: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:35: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:35: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:36: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:36: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:37: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:37: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:38: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:38: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:39: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:39: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:40: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:268: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:269: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:269: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:270: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:270: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:271: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:271: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:272: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:272: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:273: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:273: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:274: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:274: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:275: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:275: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:276: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:276: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:277: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:277: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:278: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:278: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:279: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:279: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:280: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:280: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:281: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:281: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:282: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:282: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:283: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:283: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:284: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:284: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:285: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:285: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:286: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:286: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:287: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:287: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:288: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:288: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:289: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:289: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:290: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:290: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:291: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:291: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:292: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:292: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:293: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:293: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:294: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:294: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:295: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:295: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:296: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:296: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:297: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:297: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:298: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:298: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:299: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:299: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:300: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:300: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:301: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:301: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:302: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:302: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:303: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:303: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:304: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:304: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:305: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:305: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:306: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:306: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:307: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:307: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:308: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:308: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:309: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:309: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:310: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:310: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:311: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:311: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CMakeDoxygenDefaults.cmake:312: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/project_clearpath/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/cmake_install.cmake:76: Weird indentation; use 2 spaces [whitespace/indent]
+build/project_clearpath/cmake_install.cmake:78: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/project_clearpath/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/Makefile.cmake:1087: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/Makefile.cmake:1093: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/Makefile.cmake:1138: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]
+build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/app_coverage.dir/cmake_clean.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/docs.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/test_coverage.dir/cmake_clean.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/ament_cmake_core/package.cmake:4: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_core/package.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/ament_cmake_core/package.cmake:8: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:334: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:337: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:340: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:343: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:346: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:349: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:352: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake:60: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/app/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/app/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/app/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+
+build/project_clearpath/app/ament_cmake_symlink_install_targets_0_Debug.cmake:1: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/app/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/libs/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/libs/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/libs/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+
+build/project_clearpath/libs/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/project_clearpath/libs/debris/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/libs/debris/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/libs/debris/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+
+build/project_clearpath/libs/debris/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/project_clearpath/test/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/test/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/project_clearpath/test/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+
+build/project_clearpath/test/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/project_clearpath/test/cpp-test[1]_tests.cmake:1: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:2: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:3: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:4: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:5: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:6: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:7: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:8: Lines should be <= 140 characters long [linelength]
+build/project_clearpath/test/cpp-test[1]_tests.cmake:9: Lines should be <= 140 characters long [linelength]
+
+build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+cmake-modules/CodeCoverage.cmake:84: Lines should be <= 140 characters long [linelength]
+cmake-modules/CodeCoverage.cmake:165: Weird indentation; use 2 spaces [whitespace/indent]
+cmake-modules/CodeCoverage.cmake:180: Mismatching spaces inside () after command [whitespace/mismatch]
+cmake-modules/CodeCoverage.cmake:184: Mismatching spaces inside () after command [whitespace/mismatch]
+cmake-modules/CodeCoverage.cmake:188: Mismatching spaces inside () after command [whitespace/mismatch]
+cmake-modules/CodeCoverage.cmake:192: Mismatching spaces inside () after command [whitespace/mismatch]
+cmake-modules/CodeCoverage.cmake:196: Mismatching spaces inside () after command [whitespace/mismatch]
+cmake-modules/CodeCoverage.cmake:200: Mismatching spaces inside () after command [whitespace/mismatch]
+cmake-modules/CodeCoverage.cmake:521: Line ends in whitespace [whitespace/eol]
+cmake-modules/CodeCoverage.cmake:551: Lines should be <= 140 characters long [linelength]
+cmake-modules/CodeCoverage.cmake:551: Line ends in whitespace [whitespace/eol]
+cmake-modules/CodeCoverage.cmake:714: Weird indentation; use 2 spaces [whitespace/indent]
+cmake-modules/CodeCoverage.cmake:715: Weird indentation; use 2 spaces [whitespace/indent]
+cmake-modules/CodeCoverage.cmake:716: Weird indentation; use 2 spaces [whitespace/indent]
+
+install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake:27: Extra spaces between 'if' and its () [whitespace/extra]
+install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake:28: Mismatching spaces inside () after command [whitespace/mismatch]
+
+install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:12: Extra spaces between 'if' and its () [whitespace/extra]
+install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:14: Extra spaces between 'if' and its () [whitespace/extra]
+install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:15: Do not mix upper and lower case commands [readability/mixedcase]
+install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:15: Extra spaces between 'OR' and its () [whitespace/extra]
+install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:16: Do not mix upper and lower case commands [readability/mixedcase]
+install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:16: Extra spaces between 'OR' and its () [whitespace/extra]
+
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:16: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:20: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:25: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:26: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:30: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:35: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:36: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:40: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:45: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:46: Mismatching spaces inside () after command [whitespace/mismatch]
+
+install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:4: Weird indentation; use 2 spaces [whitespace/indent]
+install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:37: Lines should be <= 140 characters long [linelength]
+install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:108: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:109: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:110: Mismatching spaces inside () after command [whitespace/mismatch]
+install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:112: Weird indentation; use 2 spaces [whitespace/indent]
+install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:117: Weird indentation; use 2 spaces [whitespace/indent]
+
+test/CMakeLists.txt:2: Mismatching spaces inside () after command [whitespace/mismatch]
+test/CMakeLists.txt:10: Mismatching spaces inside () after command [whitespace/mismatch]
+test/CMakeLists.txt:16: Mismatching spaces inside () after command [whitespace/mismatch]
+
+
+300 errors
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"lint_cmake" end time: Nov 23 23:24 EST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: pep257
+4/10 Test: pep257
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml"
+Directory: /home/ana/final/project_clearpath
+"pep257" start time: Nov 23 23:24 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py
+checking ./install/project_clearpath/share/project_clearpath/launch/spawn_tbot3_custom.py
+checking ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py
+checking ./launch/collector_robot.launch.py
+checking ./launch/spawn_tbot3_custom.py
+checking ./launch/spawn_trash.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml'
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Nov 23 23:24 EST
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: uncrustify
+5/10 Test: uncrustify
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml"
+Directory: /home/ana/final/project_clearpath
+"uncrustify" start time: Nov 23 23:24 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml
+/opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg:66: option 'sp_cpp_lambda_paren' is deprecated; use 'sp_cpp_lambda_square_paren' instead
+/opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg:519: option 'sp_word_brace' is deprecated; did you want to use 'sp_type_brace_init_lst' instead?
+Output prefix: /tmp/uncrustify_s6dtuitr/
+Output suffix: .uncrustify
+Parsing: /home/ana/final/project_clearpath/build/project_clearpath/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:276 unexpected colon in col 24 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:282 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:288 unexpected colon in col 24 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:293 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:359 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:1514 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:2103 unexpected colon in col 37 n-parent=NONE c-parent=NONE l=2 bl=2
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-cardinalities.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-function-mocker.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:2031 unexpected colon in col 37 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:3276 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:3612 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:5449 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:243 unexpected colon in col 24 n-parent=NONE c-parent=C_CAST l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:246 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:249 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:255 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:262 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:270 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:280 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:291 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:304 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:319 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-matchers.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h:150 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h:191 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h:233 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h:878 unexpected colon in col 36 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h:1965 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-internal-utils.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-port.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-pp.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-generated-actions.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-matchers.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-port.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-assertion-result.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-death-test.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:495 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:517 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:545 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:571 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:734 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:759 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:768 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-message.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-param-test.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:816 unexpected colon in col 33 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1026 unexpected colon in col 36 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1043 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1059 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1074 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h:55 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h:171 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-typed-test.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h:916 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_pred_impl.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_prod.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-death-test-internal.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-filepath.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:975 unexpected colon in col 43 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1172 unexpected colon in col 33 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1227 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1267 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1322 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h:438 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h:822 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h:842 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=3 bl=3
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port-arch.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-string.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h as language C
+combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h:198 unexpected colon in col 49 n-parent=NONE c-parent=NONE l=2 bl=2
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-port.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-printers.h as language C
+Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest.h as language C
+
+The invocation of 'uncrustify' failed with error code 1: Command '['/usr/bin/uncrustify', '-c', '/opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg', '-l', 'C', '--prefix', '/tmp/uncrustify_s6dtuitr', '--suffix', '.uncrustify', '/home/ana/final/project_clearpath/build/project_clearpath/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-cardinalities.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-function-mocker.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-internal-utils.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-pp.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-generated-actions.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-assertion-result.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-death-test.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-message.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-param-test.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-typed-test.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_pred_impl.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_prod.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-death-test-internal.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-filepath.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port-arch.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-string.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-printers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest.h']' returned non-zero exit status 1.
+-- run_test.py: return code 1
+-- run_test.py: generate result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml'
+<end of output>
+Test time =   1.02 sec
+----------------------------------------------------------
+Test Failed.
+"uncrustify" end time: Nov 23 23:24 EST
+"uncrustify" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/10 Testing: xmllint
+6/10 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml"
+Directory: /home/ana/final/project_clearpath
+"xmllint" start time: Nov 23 23:24 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml
+File 'package.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml' is valid
+
+File 'install/project_clearpath/share/project_clearpath/package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml'
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Nov 23 23:24 EST
+"xmllint" time elapsed: 00:00:00
+----------------------------------------------------------
+

@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml
+
+File 'package.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml' is valid
+
+File 'build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml' is valid
+
+File 'install/project_clearpath/share/project_clearpath/package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml'

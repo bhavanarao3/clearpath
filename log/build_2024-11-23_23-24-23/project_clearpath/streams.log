@@ -1,0 +1,108 @@
+[0.011s] Invoking command in '/home/ana/final/project_clearpath/build/project_clearpath': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ana/final/project_clearpath/build/project_clearpath -- -j2 -l2
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target myDebris[0m
+[0.062s] [ 14%] Built target gtest
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.076s] [ 28%] Built target myDebris
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.088s] [ 42%] Built target gmock
+[0.095s] [ 57%] Built target gtest_main
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target collector_node[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target cpp-test[0m
+[0.117s] [ 71%] Built target collector_node
+[0.120s] [ 85%] Built target cpp-test
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.144s] [100%] Built target gmock_main
+[0.155s] Invoked command in '/home/ana/final/project_clearpath/build/project_clearpath' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ana/final/project_clearpath/build/project_clearpath -- -j2 -l2
+[0.197s] Invoking command in '/home/ana/final/project_clearpath/build/project_clearpath': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ana/final/project_clearpath/build/project_clearpath
+[0.201s] -- Install configuration: "Debug"
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-matchers.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/README.md
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-matchers.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-generated-actions.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-port.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-internal-utils.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-port.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-pp.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-function-mocker.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock.h
+[0.202s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-cardinalities.h
+[0.204s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h
+[0.204s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h
+[0.204s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgmock.a
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgmock_main.a
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gmock.pc
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gmock_main.pc
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-printers.h
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-port.h
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/README.md
+[0.205s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-death-test-internal.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-string.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-filepath.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port-arch.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h
+[0.207s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_prod.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-param-test.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-death-test.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_pred_impl.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-message.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-assertion-result.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-typed-test.h
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgtest.a
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgtest_main.a
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gtest.pc
+[0.208s] -- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gtest_main.pc
+[0.208s] -- Execute custom install script
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/lib/project_clearpath/collector_node
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//launch/collector_robot.launch.py
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//launch/spawn_tbot3_custom.py
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//launch/spawn_trash.launch.py
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/trash_block/model.sdf
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/turtlebot3_waffle_pi/model.config
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/turtlebot3_waffle_pi/model.sdf
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//worlds/empty_world.world
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//worlds/gazebo_ros_depth_camera_demo.world
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//worlds/sample.world
+[0.208s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//urdf/common_properties.urdf
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//urdf/turtlebot3_waffle_pi.urdf
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/ament_index/resource_index/package_run_dependencies/project_clearpath
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/ament_index/resource_index/parent_prefix_path/project_clearpath
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/ament_prefix_path.sh
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/ament_prefix_path.dsv
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/path.sh
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/path.dsv
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.bash
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.sh
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.zsh
+[0.209s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.dsv
+[0.209s] -- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/package.dsv
+[0.215s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/ament_index/resource_index/packages/project_clearpath
+[0.215s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig.cmake
+[0.215s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig-version.cmake
+[0.215s] -- Up-to-date symlink: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/package.xml
+[0.216s] Invoked command in '/home/ana/final/project_clearpath/build/project_clearpath' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ana/final/project_clearpath/build/project_clearpath

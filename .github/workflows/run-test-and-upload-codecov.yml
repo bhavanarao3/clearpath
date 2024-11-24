@@ -38,9 +38,10 @@ jobs:
       # Step 5: Run tests
       - name: Run tests and collect coverage data
         run: |
-          colcon test --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug
+          colcon test 
           lcov --directory build/ --capture --output-file build/test_coverage.info
-          genhtml build/test_coverage.info --output-directory build/coverage-report
+          
+        # genhtml build/test_coverage.info --output-directory build/coverage-report
 
       # Step 6: Upload coverage data to Codecov
       - name: Upload coverage reports to Codecov

@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/ana/final/project_clearpath':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml
+
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py
+checking ./install/project_clearpath/share/project_clearpath/launch/spawn_tbot3_custom.py
+checking ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py
+checking ./launch/collector_robot.launch.py
+checking ./launch/spawn_tbot3_custom.py
+checking ./launch/spawn_trash.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml'

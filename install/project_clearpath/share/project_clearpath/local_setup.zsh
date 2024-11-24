@@ -1,0 +1,1 @@
+/home/ana/final/project_clearpath/build/project_clearpath/ament_cmake_environment_hooks/local_setup.zsh

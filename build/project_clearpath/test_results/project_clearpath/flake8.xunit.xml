@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="project_clearpath.flake8"
+  tests="20"
+  errors="0"
+  failures="20"
+  time="0.226"
+>
+  <testcase
+    name="F811 (./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:6:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="redefinition of unused 'IncludeLaunchDescription' from line 3:&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E127 (./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:25:47)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line over-indented for visual indent:&#10;                                              'worlds', 'empty_world.world')&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:2:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="'random' imported but unused:&#10;import random&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:8:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_block(i):&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:19:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-file', model_path + '/trash_block/model.sdf',&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:20:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-x', str(x_pos),&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:21:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-y', str(y_pos),&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:22:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-z', '0.0',&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:23:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-Y', '0.0'],&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:27:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="F811 (./launch/collector_robot.launch.py:6:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="redefinition of unused 'IncludeLaunchDescription' from line 3:&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E127 (./launch/collector_robot.launch.py:25:47)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line over-indented for visual indent:&#10;                                              'worlds', 'empty_world.world')&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/spawn_trash.launch.py:2:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="'random' imported but unused:&#10;import random&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/spawn_trash.launch.py:8:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_block(i):&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/spawn_trash.launch.py:19:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-file', model_path + '/trash_block/model.sdf',&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/spawn_trash.launch.py:20:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-x', str(x_pos),&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/spawn_trash.launch.py:21:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-y', str(y_pos),&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/spawn_trash.launch.py:22:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-z', '0.0',&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/spawn_trash.launch.py:23:15)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '-Y', '0.0'],&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/spawn_trash.launch.py:27:1)"
+    classname="project_clearpath.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py
+* ./install/project_clearpath/share/project_clearpath/launch/spawn_tbot3_custom.py
+* ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py
+* ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py
+* ./launch/spawn_tbot3_custom.py
+* ./launch/collector_robot.launch.py
+* ./launch/spawn_trash.launch.py</system-out>
+</testsuite>

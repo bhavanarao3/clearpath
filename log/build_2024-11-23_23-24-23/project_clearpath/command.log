@@ -1,0 +1,4 @@
+Invoking command in '/home/ana/final/project_clearpath/build/project_clearpath': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ana/final/project_clearpath/build/project_clearpath -- -j2 -l2
+Invoked command in '/home/ana/final/project_clearpath/build/project_clearpath' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ana/final/project_clearpath/build/project_clearpath -- -j2 -l2
+Invoking command in '/home/ana/final/project_clearpath/build/project_clearpath': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ana/final/project_clearpath/build/project_clearpath
+Invoked command in '/home/ana/final/project_clearpath/build/project_clearpath' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ana/final/project_clearpath/build/project_clearpath

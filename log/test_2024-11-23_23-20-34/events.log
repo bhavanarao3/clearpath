@@ -1,0 +1,1652 @@
+[0.000000] (-) TimerEvent: {}
+[0.001389] (project_clearpath) JobQueued: {'identifier': 'project_clearpath', 'dependencies': OrderedDict([('project_clearpath', '/home/ana/final/project_clearpath/install/project_clearpath')])}
+[0.001441] (project_clearpath) JobStarted: {'identifier': 'project_clearpath'}
+[0.048989] (project_clearpath) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Debug', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/ana/final/project_clearpath/build/project_clearpath', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/final/project_clearpath/install/project_clearpath:/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/final/project_clearpath/build/project_clearpath'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/final/project_clearpath/install/project_clearpath:/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs')]), 'shell': False}
+[0.057672] (project_clearpath) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ana/final/project_clearpath/build/project_clearpath/CTestConfiguration.ini\n'}
+[0.057875] (project_clearpath) StdoutLine: {'line': b'Parse Config file:/home/ana/final/project_clearpath/build/project_clearpath/CTestConfiguration.ini\n'}
+[0.057923] (project_clearpath) StdoutLine: {'line': b'   Site: ana-virtual-machine\n'}
+[0.057967] (project_clearpath) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.058669] (project_clearpath) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.058727] (project_clearpath) StdoutLine: {'line': b'Create new tag: 20241124-0420 - Experimental\n'}
+[0.058766] (project_clearpath) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ana/final/project_clearpath/build/project_clearpath/CTestConfiguration.ini\n'}
+[0.058804] (project_clearpath) StdoutLine: {'line': b'Parse Config file:/home/ana/final/project_clearpath/build/project_clearpath/CTestConfiguration.ini\n'}
+[0.058840] (project_clearpath) StdoutLine: {'line': b'Test project /home/ana/final/project_clearpath/build/project_clearpath\n'}
+[0.058875] (project_clearpath) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.059036] (project_clearpath) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.059106] (project_clearpath) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.059175] (project_clearpath) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.059213] (project_clearpath) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.059249] (project_clearpath) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.059283] (project_clearpath) StdoutLine: {'line': b'test 1\n'}
+[0.060880] (project_clearpath) StdoutLine: {'line': b'      Start  1: cppcheck\n'}
+[0.060935] (project_clearpath) StdoutLine: {'line': b'\n'}
+[0.060973] (project_clearpath) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml"\n'}
+[0.061011] (project_clearpath) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.100032] (-) TimerEvent: {}
+[0.110117] (project_clearpath) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/ana/final/project_clearpath':\n"}
+[0.110720] (project_clearpath) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml\n'}
+[0.200153] (-) TimerEvent: {}
+[0.202708] (project_clearpath) StdoutLine: {'line': b'1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.211593] (project_clearpath) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.211739] (project_clearpath) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml'\n"}
+[0.218935] (project_clearpath) StdoutLine: {'line': b' 1/10 Test  #1: cppcheck .....................................   Passed    0.16 sec\n'}
+[0.219695] (project_clearpath) StdoutLine: {'line': b'test 2\n'}
+[0.219807] (project_clearpath) StdoutLine: {'line': b'      Start  2: flake8\n'}
+[0.219850] (project_clearpath) StdoutLine: {'line': b'\n'}
+[0.219889] (project_clearpath) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml"\n'}
+[0.219936] (project_clearpath) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.265981] (project_clearpath) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/ana/final/project_clearpath':\n"}
+[0.266127] (project_clearpath) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml\n'}
+[0.300298] (-) TimerEvent: {}
+[0.400592] (-) TimerEvent: {}
+[0.500925] (-) TimerEvent: {}
+[0.601312] (-) TimerEvent: {}
+[0.624132] (project_clearpath) StdoutLine: {'line': b'2: from launch.actions import IncludeLaunchDescription\n'}
+[0.625217] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.625343] (project_clearpath) StdoutLine: {'line': b"2:                                               'worlds', 'empty_world.world')\n"}
+[0.625391] (project_clearpath) StdoutLine: {'line': b'2:                                               ^\n'}
+[0.625451] (project_clearpath) StdoutLine: {'line': b'2: import random\n'}
+[0.625492] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.625608] (project_clearpath) StdoutLine: {'line': b'2: def generate_block(i):\n'}
+[0.625657] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.625694] (project_clearpath) StdoutLine: {'line': b"2:               '-file', model_path + '/trash_block/model.sdf',\n"}
+[0.625729] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.625770] (project_clearpath) StdoutLine: {'line': b"2:               '-x', str(x_pos),\n"}
+[0.626600] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.626642] (project_clearpath) StdoutLine: {'line': b"2:               '-y', str(y_pos),\n"}
+[0.626719] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.626755] (project_clearpath) StdoutLine: {'line': b"2:               '-z', '0.0',\n"}
+[0.626789] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.626824] (project_clearpath) StdoutLine: {'line': b"2:               '-Y', '0.0'],\n"}
+[0.626859] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.626894] (project_clearpath) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.626941] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.626986] (project_clearpath) StdoutLine: {'line': b'2: from launch.actions import IncludeLaunchDescription\n'}
+[0.627024] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.627059] (project_clearpath) StdoutLine: {'line': b"2:                                               'worlds', 'empty_world.world')\n"}
+[0.627096] (project_clearpath) StdoutLine: {'line': b'2:                                               ^\n'}
+[0.627131] (project_clearpath) StdoutLine: {'line': b'2: import random\n'}
+[0.627166] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.627200] (project_clearpath) StdoutLine: {'line': b'2: def generate_block(i):\n'}
+[0.627239] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.627273] (project_clearpath) StdoutLine: {'line': b"2:               '-file', model_path + '/trash_block/model.sdf',\n"}
+[0.627308] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.627344] (project_clearpath) StdoutLine: {'line': b"2:               '-x', str(x_pos),\n"}
+[0.627379] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.627413] (project_clearpath) StdoutLine: {'line': b"2:               '-y', str(y_pos),\n"}
+[0.627450] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.627485] (project_clearpath) StdoutLine: {'line': b"2:               '-z', '0.0',\n"}
+[0.627519] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.627554] (project_clearpath) StdoutLine: {'line': b"2:               '-Y', '0.0'],\n"}
+[0.628637] (project_clearpath) StdoutLine: {'line': b'2:               ^\n'}
+[0.628716] (project_clearpath) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.628755] (project_clearpath) StdoutLine: {'line': b'2: ^\n'}
+[0.628790] (project_clearpath) StdoutLine: {'line': b'2: 2     E127 continuation line over-indented for visual indent\n'}
+[0.628836] (project_clearpath) StdoutLine: {'line': b'2: 10    E128 continuation line under-indented for visual indent\n'}
+[0.628871] (project_clearpath) StdoutLine: {'line': b'2: 4     E302 expected 2 blank lines, found 1\n'}
+[0.628905] (project_clearpath) StdoutLine: {'line': b"2: 2     F401 'random' imported but unused\n"}
+[0.628962] (project_clearpath) StdoutLine: {'line': b"2: 2     F811 redefinition of unused 'IncludeLaunchDescription' from line 3\n"}
+[0.629003] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629040] (project_clearpath) StdoutLine: {'line': b"2: ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:6:1: F811 redefinition of unused 'IncludeLaunchDescription' from line 3\n"}
+[0.629077] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629112] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py:25:47: E127 continuation line over-indented for visual indent\n'}
+[0.629147] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629182] (project_clearpath) StdoutLine: {'line': b"2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:2:1: F401 'random' imported but unused\n"}
+[0.629217] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629252] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:8:1: E302 expected 2 blank lines, found 1\n'}
+[0.629288] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629322] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:19:15: E128 continuation line under-indented for visual indent\n'}
+[0.629358] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629393] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:20:15: E128 continuation line under-indented for visual indent\n'}
+[0.629428] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629463] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:21:15: E128 continuation line under-indented for visual indent\n'}
+[0.629498] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629532] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:22:15: E128 continuation line under-indented for visual indent\n'}
+[0.629569] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629618] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:23:15: E128 continuation line under-indented for visual indent\n'}
+[0.629658] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629693] (project_clearpath) StdoutLine: {'line': b'2: ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py:27:1: E302 expected 2 blank lines, found 1\n'}
+[0.629729] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629771] (project_clearpath) StdoutLine: {'line': b"2: ./launch/collector_robot.launch.py:6:1: F811 redefinition of unused 'IncludeLaunchDescription' from line 3\n"}
+[0.629807] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629842] (project_clearpath) StdoutLine: {'line': b'2: ./launch/collector_robot.launch.py:25:47: E127 continuation line over-indented for visual indent\n'}
+[0.629877] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.629912] (project_clearpath) StdoutLine: {'line': b"2: ./launch/spawn_trash.launch.py:2:1: F401 'random' imported but unused\n"}
+[0.630165] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.630222] (project_clearpath) StdoutLine: {'line': b'2: ./launch/spawn_trash.launch.py:8:1: E302 expected 2 blank lines, found 1\n'}
+[0.630261] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.630296] (project_clearpath) StdoutLine: {'line': b'2: ./launch/spawn_trash.launch.py:19:15: E128 continuation line under-indented for visual indent\n'}
+[0.630333] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.630367] (project_clearpath) StdoutLine: {'line': b'2: ./launch/spawn_trash.launch.py:20:15: E128 continuation line under-indented for visual indent\n'}
+[0.630403] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.630440] (project_clearpath) StdoutLine: {'line': b'2: ./launch/spawn_trash.launch.py:21:15: E128 continuation line under-indented for visual indent\n'}
+[0.630475] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.630509] (project_clearpath) StdoutLine: {'line': b'2: ./launch/spawn_trash.launch.py:22:15: E128 continuation line under-indented for visual indent\n'}
+[0.630544] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.633952] (project_clearpath) StdoutLine: {'line': b'2: ./launch/spawn_trash.launch.py:23:15: E128 continuation line under-indented for visual indent\n'}
+[0.634054] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.634098] (project_clearpath) StdoutLine: {'line': b'2: ./launch/spawn_trash.launch.py:27:1: E302 expected 2 blank lines, found 1\n'}
+[0.634526] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.634595] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.634640] (project_clearpath) StdoutLine: {'line': b'2: 8 files checked\n'}
+[0.634678] (project_clearpath) StdoutLine: {'line': b'2: 20 errors\n'}
+[0.634713] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.634748] (project_clearpath) StdoutLine: {'line': b"2: 'E'-type errors: 16\n"}
+[0.634783] (project_clearpath) StdoutLine: {'line': b"2: 'F'-type errors: 4\n"}
+[0.634816] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.634850] (project_clearpath) StdoutLine: {'line': b'2: Checked files:\n'}
+[0.634884] (project_clearpath) StdoutLine: {'line': b'2: \n'}
+[0.634918] (project_clearpath) StdoutLine: {'line': b'2: * ./install/_local_setup_util_sh.py\n'}
+[0.634953] (project_clearpath) StdoutLine: {'line': b'2: * ./install/_local_setup_util_ps1.py\n'}
+[0.634989] (project_clearpath) StdoutLine: {'line': b'2: * ./install/project_clearpath/share/project_clearpath/launch/spawn_tbot3_custom.py\n'}
+[0.635025] (project_clearpath) StdoutLine: {'line': b'2: * ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py\n'}
+[0.635060] (project_clearpath) StdoutLine: {'line': b'2: * ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py\n'}
+[0.635095] (project_clearpath) StdoutLine: {'line': b'2: * ./launch/spawn_tbot3_custom.py\n'}
+[0.635130] (project_clearpath) StdoutLine: {'line': b'2: * ./launch/collector_robot.launch.py\n'}
+[0.635164] (project_clearpath) StdoutLine: {'line': b'2: * ./launch/spawn_trash.launch.py\n'}
+[0.647618] (project_clearpath) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
+[0.647966] (project_clearpath) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml'\n"}
+[0.652470] (project_clearpath) StdoutLine: {'line': b' 2/10 Test  #2: flake8 .......................................***Failed    0.43 sec\n'}
+[0.652981] (project_clearpath) StdoutLine: {'line': b'test 3\n'}
+[0.653224] (project_clearpath) StdoutLine: {'line': b'      Start  3: lint_cmake\n'}
+[0.653345] (project_clearpath) StdoutLine: {'line': b'\n'}
+[0.653384] (project_clearpath) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml"\n'}
+[0.653435] (project_clearpath) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.697769] (project_clearpath) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/ana/final/project_clearpath':\n"}
+[0.697926] (project_clearpath) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml\n'}
+[0.701487] (-) TimerEvent: {}
+[0.762964] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:15: Do not use mixed case commands [readability/wonkycase]\n'}
+[0.763361] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:21: Do not use mixed case commands [readability/wonkycase]\n'}
+[0.763533] (project_clearpath) StdoutLine: {'line': b"3: CMakeLists.txt:58: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[0.763573] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:105: Line ends in whitespace [whitespace/eol]\n'}
+[0.763636] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:132: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.763673] (project_clearpath) StdoutLine: {'line': b"3: CMakeLists.txt:141: Extra spaces between 'setup_target_for_coverage_lcov' and its () [whitespace/extra]\n"}
+[0.763709] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:141: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.763744] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:144: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.763779] (project_clearpath) StdoutLine: {'line': b"3: CMakeLists.txt:153: Extra spaces between 'setup_target_for_coverage_gcovr_html' and its () [whitespace/extra]\n"}
+[0.763815] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:153: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.763850] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:156: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.763885] (project_clearpath) StdoutLine: {'line': b'3: CMakeLists.txt:156: Line ends in whitespace [whitespace/eol]\n'}
+[0.763918] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.763953] (project_clearpath) StdoutLine: {'line': b'3: app/CMakeLists.txt:2: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.765612] (project_clearpath) StdoutLine: {'line': b'3: app/CMakeLists.txt:18: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.765657] (project_clearpath) StdoutLine: {'line': b'3: app/CMakeLists.txt:18: Line ends in whitespace [whitespace/eol]\n'}
+[0.765695] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.765730] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:30: Line ends in whitespace [whitespace/eol]\n'}
+[0.765765] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:31: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.765806] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:31: Line ends in whitespace [whitespace/eol]\n'}
+[0.765839] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:32: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.765873] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:32: Line ends in whitespace [whitespace/eol]\n'}
+[0.765907] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:33: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.765947] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:33: Line ends in whitespace [whitespace/eol]\n'}
+[0.765982] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:34: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766015] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:34: Line ends in whitespace [whitespace/eol]\n'}
+[0.766049] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:35: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766083] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:35: Line ends in whitespace [whitespace/eol]\n'}
+[0.766116] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:36: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766150] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:36: Line ends in whitespace [whitespace/eol]\n'}
+[0.766184] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:37: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766218] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:37: Line ends in whitespace [whitespace/eol]\n'}
+[0.766251] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:38: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766284] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:38: Line ends in whitespace [whitespace/eol]\n'}
+[0.766318] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:39: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766351] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:39: Line ends in whitespace [whitespace/eol]\n'}
+[0.766385] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:40: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766418] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:268: Line ends in whitespace [whitespace/eol]\n'}
+[0.766452] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:269: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766486] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:269: Line ends in whitespace [whitespace/eol]\n'}
+[0.766519] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:270: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766552] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:270: Line ends in whitespace [whitespace/eol]\n'}
+[0.766596] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:271: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766633] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:271: Line ends in whitespace [whitespace/eol]\n'}
+[0.766670] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:272: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766704] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:272: Line ends in whitespace [whitespace/eol]\n'}
+[0.766738] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:273: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766772] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:273: Line ends in whitespace [whitespace/eol]\n'}
+[0.766805] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:274: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766839] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:274: Line ends in whitespace [whitespace/eol]\n'}
+[0.766872] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:275: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766905] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:275: Line ends in whitespace [whitespace/eol]\n'}
+[0.766938] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:276: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.766973] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:276: Line ends in whitespace [whitespace/eol]\n'}
+[0.767006] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:277: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767039] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:277: Line ends in whitespace [whitespace/eol]\n'}
+[0.767072] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:278: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767105] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:278: Line ends in whitespace [whitespace/eol]\n'}
+[0.767138] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:279: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767172] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:279: Line ends in whitespace [whitespace/eol]\n'}
+[0.767206] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:280: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767239] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:280: Line ends in whitespace [whitespace/eol]\n'}
+[0.767274] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:281: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767307] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:281: Line ends in whitespace [whitespace/eol]\n'}
+[0.767341] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:282: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767374] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:282: Line ends in whitespace [whitespace/eol]\n'}
+[0.767406] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:283: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767439] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:283: Line ends in whitespace [whitespace/eol]\n'}
+[0.767474] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:284: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767866] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:284: Line ends in whitespace [whitespace/eol]\n'}
+[0.767948] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:285: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.767988] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:285: Line ends in whitespace [whitespace/eol]\n'}
+[0.768024] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:286: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.768059] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:286: Line ends in whitespace [whitespace/eol]\n'}
+[0.768093] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:287: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.768127] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:287: Line ends in whitespace [whitespace/eol]\n'}
+[0.768160] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:288: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.768195] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:288: Line ends in whitespace [whitespace/eol]\n'}
+[0.768268] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:289: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.768310] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:289: Line ends in whitespace [whitespace/eol]\n'}
+[0.768347] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:290: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.768392] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:290: Line ends in whitespace [whitespace/eol]\n'}
+[0.768475] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:291: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.768559] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:291: Line ends in whitespace [whitespace/eol]\n'}
+[0.768612] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:292: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.785587] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:292: Line ends in whitespace [whitespace/eol]\n'}
+[0.786872] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:293: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.786938] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:293: Line ends in whitespace [whitespace/eol]\n'}
+[0.786978] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:294: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787014] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:294: Line ends in whitespace [whitespace/eol]\n'}
+[0.787051] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:295: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787085] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:295: Line ends in whitespace [whitespace/eol]\n'}
+[0.787120] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:296: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787154] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:296: Line ends in whitespace [whitespace/eol]\n'}
+[0.787223] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:297: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787260] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:297: Line ends in whitespace [whitespace/eol]\n'}
+[0.787294] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:298: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787327] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:298: Line ends in whitespace [whitespace/eol]\n'}
+[0.787361] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:299: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787394] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:299: Line ends in whitespace [whitespace/eol]\n'}
+[0.787428] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:300: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787462] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:300: Line ends in whitespace [whitespace/eol]\n'}
+[0.787496] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:301: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.787532] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:301: Line ends in whitespace [whitespace/eol]\n'}
+[0.787566] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:302: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.789966] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:302: Line ends in whitespace [whitespace/eol]\n'}
+[0.790035] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:303: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790074] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:303: Line ends in whitespace [whitespace/eol]\n'}
+[0.790109] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:304: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790144] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:304: Line ends in whitespace [whitespace/eol]\n'}
+[0.790180] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:305: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790214] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:305: Line ends in whitespace [whitespace/eol]\n'}
+[0.790248] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:306: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790286] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:306: Line ends in whitespace [whitespace/eol]\n'}
+[0.790320] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:307: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790354] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:307: Line ends in whitespace [whitespace/eol]\n'}
+[0.790388] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:308: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790424] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:308: Line ends in whitespace [whitespace/eol]\n'}
+[0.790459] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:309: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790501] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:309: Line ends in whitespace [whitespace/eol]\n'}
+[0.790540] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:310: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.790574] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:310: Line ends in whitespace [whitespace/eol]\n'}
+[0.792774] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:311: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.792826] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:311: Line ends in whitespace [whitespace/eol]\n'}
+[0.792862] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeDoxygenDefaults.cmake:312: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.792896] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.792930] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[0.792966] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[0.792999] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[0.793034] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]\n'}
+[0.793069] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[0.793103] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.793144] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]\n'}
+[0.793178] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[0.793211] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[0.793244] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]\n'}
+[0.793278] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]\n'}
+[0.793313] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]\n'}
+[0.793347] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]\n'}
+[0.793380] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]\n'}
+[0.793413] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]\n'}
+[0.793447] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.793481] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.793515] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/cmake_install.cmake:76: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.793549] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/cmake_install.cmake:78: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.796252] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.796749] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.796803] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/Makefile.cmake:1087: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.796843] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/Makefile.cmake:1093: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.796879] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/Makefile.cmake:1138: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.796914] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.796949] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.796984] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]\n'}
+[0.797018] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797052] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.797086] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[0.797122] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[0.797156] (project_clearpath) StdoutLine: {'line': b"3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]\n"}
+[0.797191] (project_clearpath) StdoutLine: {'line': b"3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[0.797226] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]\n'}
+[0.797259] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797294] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797334] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797368] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797401] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797434] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/app_coverage.dir/cmake_clean.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797468] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797501] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797534] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797569] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797613] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797649] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/docs.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797684] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797717] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797751] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797786] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797820] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797853] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797887] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.797920] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797954] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.797987] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798021] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.798053] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/test_coverage.dir/cmake_clean.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798087] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.798121] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798154] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798187] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798221] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.798253] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798287] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.798321] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_core/package.cmake:4: Lines should be <= 140 characters long [linelength]\n'}
+[0.798357] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_core/package.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798394] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798429] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_core/package.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[0.798462] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798495] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.798529] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.803070] (-) TimerEvent: {}
+[0.807688] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]\n'}
+[0.807820] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]\n'}
+[0.807861] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]\n'}
+[0.807897] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]\n'}
+[0.807932] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]\n'}
+[0.807976] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[0.808011] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.808048] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]\n'}
+[0.808083] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[0.808122] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[0.808155] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]\n'}
+[0.808191] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]\n'}
+[0.808225] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.808263] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314: Lines should be <= 140 characters long [linelength]\n'}
+[0.808301] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317: Lines should be <= 140 characters long [linelength]\n'}
+[0.808336] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319: Lines should be <= 140 characters long [linelength]\n'}
+[0.808373] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320: Lines should be <= 140 characters long [linelength]\n'}
+[0.808408] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322: Lines should be <= 140 characters long [linelength]\n'}
+[0.808442] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323: Lines should be <= 140 characters long [linelength]\n'}
+[0.808475] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325: Lines should be <= 140 characters long [linelength]\n'}
+[0.808509] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326: Lines should be <= 140 characters long [linelength]\n'}
+[0.808545] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328: Lines should be <= 140 characters long [linelength]\n'}
+[0.810366] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329: Lines should be <= 140 characters long [linelength]\n'}
+[0.810661] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331: Lines should be <= 140 characters long [linelength]\n'}
+[0.810722] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332: Lines should be <= 140 characters long [linelength]\n'}
+[0.810760] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:334: Lines should be <= 140 characters long [linelength]\n'}
+[0.810795] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335: Lines should be <= 140 characters long [linelength]\n'}
+[0.810831] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:337: Lines should be <= 140 characters long [linelength]\n'}
+[0.810868] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338: Lines should be <= 140 characters long [linelength]\n'}
+[0.810902] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:340: Lines should be <= 140 characters long [linelength]\n'}
+[0.810936] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341: Lines should be <= 140 characters long [linelength]\n'}
+[0.810970] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:343: Lines should be <= 140 characters long [linelength]\n'}
+[0.811004] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344: Lines should be <= 140 characters long [linelength]\n'}
+[0.811037] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:346: Lines should be <= 140 characters long [linelength]\n'}
+[0.811070] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347: Lines should be <= 140 characters long [linelength]\n'}
+[0.811116] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:349: Lines should be <= 140 characters long [linelength]\n'}
+[0.811150] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350: Lines should be <= 140 characters long [linelength]\n'}
+[0.811186] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:352: Lines should be <= 140 characters long [linelength]\n'}
+[0.811220] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353: Lines should be <= 140 characters long [linelength]\n'}
+[0.811254] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355: Lines should be <= 140 characters long [linelength]\n'}
+[0.811288] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356: Lines should be <= 140 characters long [linelength]\n'}
+[0.811322] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359: Lines should be <= 140 characters long [linelength]\n'}
+[0.811357] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.811393] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake:60: Lines should be <= 140 characters long [linelength]\n'}
+[0.811429] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.811462] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[0.811496] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[0.811530] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[0.811563] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.811604] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/ament_cmake_symlink_install_targets_0_Debug.cmake:1: Lines should be <= 140 characters long [linelength]\n'}
+[0.811640] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.811674] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.811709] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.811743] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.811777] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.811811] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.811844] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.811878] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[0.811911] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[0.811946] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[0.811982] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.812015] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.812049] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.812082] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/debris/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[0.812116] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/debris/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[0.812149] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/debris/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[0.812182] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.812214] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/debris/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.812249] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.812282] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.812317] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.812351] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.812387] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.812420] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[0.812453] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[0.812486] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[0.812521] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.817475] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.817658] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.817751] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:1: Lines should be <= 140 characters long [linelength]\n'}
+[0.817805] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:2: Lines should be <= 140 characters long [linelength]\n'}
+[0.817881] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:3: Lines should be <= 140 characters long [linelength]\n'}
+[0.817954] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:4: Lines should be <= 140 characters long [linelength]\n'}
+[0.817991] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:5: Lines should be <= 140 characters long [linelength]\n'}
+[0.818027] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:6: Lines should be <= 140 characters long [linelength]\n'}
+[0.818061] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:7: Lines should be <= 140 characters long [linelength]\n'}
+[0.818095] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[0.818128] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/cpp-test[1]_tests.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.818162] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.818196] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818231] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818265] (project_clearpath) StdoutLine: {'line': b'3: build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818302] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.818336] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:84: Lines should be <= 140 characters long [linelength]\n'}
+[0.818371] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:165: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.818405] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:180: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818438] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:184: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818471] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:188: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818505] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:192: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818539] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:196: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818579] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:200: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.818624] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:521: Line ends in whitespace [whitespace/eol]\n'}
+[0.818661] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:551: Lines should be <= 140 characters long [linelength]\n'}
+[0.818696] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:551: Line ends in whitespace [whitespace/eol]\n'}
+[0.818730] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:714: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.818763] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:715: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.818797] (project_clearpath) StdoutLine: {'line': b'3: cmake-modules/CodeCoverage.cmake:716: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.818904] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.818960] (project_clearpath) StdoutLine: {'line': b"3: install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake:27: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[0.819000] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake:28: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.819036] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.819071] (project_clearpath) StdoutLine: {'line': b"3: install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:12: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[0.819104] (project_clearpath) StdoutLine: {'line': b"3: install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:14: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[0.819138] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:15: Do not mix upper and lower case commands [readability/mixedcase]\n'}
+[0.819173] (project_clearpath) StdoutLine: {'line': b"3: install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:15: Extra spaces between 'OR' and its () [whitespace/extra]\n"}
+[0.819207] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:16: Do not mix upper and lower case commands [readability/mixedcase]\n'}
+[0.819240] (project_clearpath) StdoutLine: {'line': b"3: install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:16: Extra spaces between 'OR' and its () [whitespace/extra]\n"}
+[0.819369] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.819447] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.819483] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.819519] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:16: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.824234] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:20: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.824416] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:25: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.824456] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:26: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.824493] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:30: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.824531] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:35: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.824565] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:36: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825321] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:40: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825379] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:45: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825416] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:46: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825451] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.825485] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:4: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.825523] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:37: Lines should be <= 140 characters long [linelength]\n'}
+[0.825557] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:108: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825606] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:109: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825642] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:110: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825675] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:112: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.825708] (project_clearpath) StdoutLine: {'line': b'3: install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:117: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.825742] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.825776] (project_clearpath) StdoutLine: {'line': b'3: test/CMakeLists.txt:2: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825811] (project_clearpath) StdoutLine: {'line': b'3: test/CMakeLists.txt:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825845] (project_clearpath) StdoutLine: {'line': b'3: test/CMakeLists.txt:16: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.825879] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.825912] (project_clearpath) StdoutLine: {'line': b'3: \n'}
+[0.825945] (project_clearpath) StdoutLine: {'line': b'3: 300 errors\n'}
+[0.825979] (project_clearpath) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[0.826012] (project_clearpath) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml'\n"}
+[0.836817] (project_clearpath) StdoutLine: {'line': b' 3/10 Test  #3: lint_cmake ...................................***Failed    0.18 sec\n'}
+[0.836966] (project_clearpath) StdoutLine: {'line': b'test 4\n'}
+[0.837011] (project_clearpath) StdoutLine: {'line': b'      Start  4: pep257\n'}
+[0.837048] (project_clearpath) StdoutLine: {'line': b'\n'}
+[0.837661] (project_clearpath) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml"\n'}
+[0.837762] (project_clearpath) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.885566] (project_clearpath) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/ana/final/project_clearpath':\n"}
+[0.885733] (project_clearpath) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml\n'}
+[0.903210] (-) TimerEvent: {}
+[1.004783] (-) TimerEvent: {}
+[1.073775] (project_clearpath) StdoutLine: {'line': b'4: checking ./install/_local_setup_util_ps1.py\n'}
+[1.074848] (project_clearpath) StdoutLine: {'line': b'4: checking ./install/_local_setup_util_sh.py\n'}
+[1.075049] (project_clearpath) StdoutLine: {'line': b'4: checking ./install/project_clearpath/share/project_clearpath/launch/collector_robot.launch.py\n'}
+[1.075098] (project_clearpath) StdoutLine: {'line': b'4: checking ./install/project_clearpath/share/project_clearpath/launch/spawn_tbot3_custom.py\n'}
+[1.075141] (project_clearpath) StdoutLine: {'line': b'4: checking ./install/project_clearpath/share/project_clearpath/launch/spawn_trash.launch.py\n'}
+[1.075181] (project_clearpath) StdoutLine: {'line': b'4: checking ./launch/collector_robot.launch.py\n'}
+[1.075223] (project_clearpath) StdoutLine: {'line': b'4: checking ./launch/spawn_tbot3_custom.py\n'}
+[1.075262] (project_clearpath) StdoutLine: {'line': b'4: checking ./launch/spawn_trash.launch.py\n'}
+[1.075302] (project_clearpath) StdoutLine: {'line': b'4: No problems found\n'}
+[1.086466] (project_clearpath) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.086635] (project_clearpath) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml'\n"}
+[1.093195] (project_clearpath) StdoutLine: {'line': b' 4/10 Test  #4: pep257 .......................................   Passed    0.26 sec\n'}
+[1.093390] (project_clearpath) StdoutLine: {'line': b'test 5\n'}
+[1.093436] (project_clearpath) StdoutLine: {'line': b'      Start  5: uncrustify\n'}
+[1.094065] (project_clearpath) StdoutLine: {'line': b'\n'}
+[1.094131] (project_clearpath) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml"\n'}
+[1.094187] (project_clearpath) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.105696] (-) TimerEvent: {}
+[1.136878] (project_clearpath) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/ana/final/project_clearpath':\n"}
+[1.137375] (project_clearpath) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml\n'}
+[1.206690] (-) TimerEvent: {}
+[1.308739] (-) TimerEvent: {}
+[1.409114] (-) TimerEvent: {}
+[1.510352] (-) TimerEvent: {}
+[1.610796] (-) TimerEvent: {}
+[1.711210] (-) TimerEvent: {}
+[1.811575] (-) TimerEvent: {}
+[1.911898] (-) TimerEvent: {}
+[1.919639] (project_clearpath) StdoutLine: {'line': b"5: /opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg:66: option 'sp_cpp_lambda_paren' is deprecated; use 'sp_cpp_lambda_square_paren' instead\n"}
+[1.920063] (project_clearpath) StdoutLine: {'line': b"5: /opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg:519: option 'sp_word_brace' is deprecated; did you want to use 'sp_type_brace_init_lst' instead?\n"}
+[1.920284] (project_clearpath) StdoutLine: {'line': b'5: Output prefix: /tmp/uncrustify_hcxgsx26/\n'}
+[1.920330] (project_clearpath) StdoutLine: {'line': b'5: Output suffix: .uncrustify\n'}
+[1.920368] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/build/project_clearpath/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c as language C\n'}
+[1.920404] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h as language C\n'}
+[1.920439] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:276 unexpected colon in col 24 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.920478] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:282 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921597] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:288 unexpected colon in col 24 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921653] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:293 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921690] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:359 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921723] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:1514 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921755] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h:2103 unexpected colon in col 37 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921790] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-cardinalities.h as language C\n'}
+[1.921823] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-function-mocker.h as language C\n'}
+[1.921855] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h as language C\n'}
+[1.921893] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:2031 unexpected colon in col 37 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921925] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:3276 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921956] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:3612 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.921989] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h:5449 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922026] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h as language C\n'}
+[1.922060] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:243 unexpected colon in col 24 n-parent=NONE c-parent=C_CAST l=1 bl=1\n'}
+[1.922092] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:246 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922124] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:249 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922155] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:255 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922186] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:262 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922217] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:270 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922248] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:280 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922280] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:291 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922311] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:304 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922341] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h:319 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922373] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-matchers.h as language C\n'}
+[1.922405] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h as language C\n'}
+[1.922441] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h:150 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922473] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h:191 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922519] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h:233 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.922555] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h as language C\n'}
+[1.922611] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h:878 unexpected colon in col 36 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.922649] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h:1965 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.922685] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock.h as language C\n'}
+[1.922719] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-internal-utils.h as language C\n'}
+[1.922753] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-port.h as language C\n'}
+[1.922786] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-pp.h as language C\n'}
+[1.922820] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-generated-actions.h as language C\n'}
+[1.922852] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-matchers.h as language C\n'}
+[1.922886] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-port.h as language C\n'}
+[1.922923] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-assertion-result.h as language C\n'}
+[1.922956] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-death-test.h as language C\n'}
+[1.922989] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h as language C\n'}
+[1.923022] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:495 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.923056] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:517 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.923090] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:545 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.923123] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:571 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.925722] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:734 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.925771] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:759 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.925807] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h:768 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.925843] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-message.h as language C\n'}
+[1.925878] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-param-test.h as language C\n'}
+[1.925912] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h as language C\n'}
+[1.925955] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:816 unexpected colon in col 33 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.925989] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1026 unexpected colon in col 36 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926023] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1043 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926058] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1059 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926091] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h:1074 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926124] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h as language C\n'}
+[1.926158] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h:55 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.926191] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h as language C\n'}
+[1.926225] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h:171 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926259] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-typed-test.h as language C\n'}
+[1.926292] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h as language C\n'}
+[1.926325] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h:916 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.926361] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_pred_impl.h as language C\n'}
+[1.926399] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_prod.h as language C\n'}
+[1.926433] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-death-test-internal.h as language C\n'}
+[1.926466] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-filepath.h as language C\n'}
+[1.926499] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h as language C\n'}
+[1.926532] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:975 unexpected colon in col 43 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926566] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1172 unexpected colon in col 33 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926619] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1227 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926654] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1267 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926687] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h:1322 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=1 bl=1\n'}
+[1.926720] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h as language C\n'}
+[1.926753] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h:438 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926787] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h:822 unexpected colon in col 5 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.926820] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h:842 unexpected colon in col 7 n-parent=NONE c-parent=NONE l=3 bl=3\n'}
+[1.926854] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port-arch.h as language C\n'}
+[1.926890] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port.h as language C\n'}
+[1.926923] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-string.h as language C\n'}
+[1.926956] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h as language C\n'}
+[1.926989] (project_clearpath) StdoutLine: {'line': b'5: combine_labels(412): /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h:198 unexpected colon in col 49 n-parent=NONE c-parent=NONE l=2 bl=2\n'}
+[1.927022] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-port.h as language C\n'}
+[1.927055] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-printers.h as language C\n'}
+[1.927089] (project_clearpath) StdoutLine: {'line': b'5: Parsing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest.h as language C\n'}
+[1.927121] (project_clearpath) StdoutLine: {'line': b'5: \n'}
+[1.927155] (project_clearpath) StdoutLine: {'line': b"5: The invocation of 'uncrustify' failed with error code 1: Command '['/usr/bin/uncrustify', '-c', '/opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg', '-l', 'C', '--prefix', '/tmp/uncrustify_hcxgsx26', '--suffix', '.uncrustify', '/home/ana/final/project_clearpath/build/project_clearpath/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-cardinalities.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-function-mocker.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-internal-utils.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-pp.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-generated-actions.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-assertion-result.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-death-test.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-message.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-param-test.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-typed-test.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_pred_impl.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_prod.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-death-test-internal.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-filepath.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port-arch.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-string.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-port.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-printers.h', '/home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest.h']' returned non-zero exit status 1.\n"}
+[1.930138] (project_clearpath) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[1.930258] (project_clearpath) StdoutLine: {'line': b"5: -- run_test.py: generate result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml' with failed test\n"}
+[1.930303] (project_clearpath) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml'\n"}
+[1.936603] (project_clearpath) StdoutLine: {'line': b' 5/10 Test  #5: uncrustify ...................................***Failed    0.84 sec\n'}
+[1.936690] (project_clearpath) StdoutLine: {'line': b'test 6\n'}
+[1.936728] (project_clearpath) StdoutLine: {'line': b'      Start  6: xmllint\n'}
+[1.936763] (project_clearpath) StdoutLine: {'line': b'\n'}
+[1.936797] (project_clearpath) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml" "--package-name" "project_clearpath" "--output-file" "/home/ana/final/project_clearpath/build/project_clearpath/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml"\n'}
+[1.936842] (project_clearpath) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[1.976701] (project_clearpath) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/ana/final/project_clearpath':\n"}
+[1.976962] (project_clearpath) StdoutLine: {'line': b'6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml\n'}
+[2.012101] (-) TimerEvent: {}
+[2.112482] (-) TimerEvent: {}
+[2.213280] (-) TimerEvent: {}
+[2.313978] (-) TimerEvent: {}
+[2.414744] (-) TimerEvent: {}
+[2.515917] (-) TimerEvent: {}
+[2.611192] (project_clearpath) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[2.611353] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611399] (project_clearpath) StdoutLine: {'line': b"6: File 'build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml' is valid\n"}
+[2.611439] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611476] (project_clearpath) StdoutLine: {'line': b"6: File 'build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml' is valid\n"}
+[2.611514] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611552] (project_clearpath) StdoutLine: {'line': b"6: File 'build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml' is valid\n"}
+[2.611655] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611705] (project_clearpath) StdoutLine: {'line': b"6: File 'build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml' is valid\n"}
+[2.611741] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611778] (project_clearpath) StdoutLine: {'line': b"6: File 'build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml' is valid\n"}
+[2.611814] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611849] (project_clearpath) StdoutLine: {'line': b"6: File 'build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml' is valid\n"}
+[2.611884] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611920] (project_clearpath) StdoutLine: {'line': b"6: File 'install/project_clearpath/share/project_clearpath/package.xml' is valid\n"}
+[2.611955] (project_clearpath) StdoutLine: {'line': b'6: \n'}
+[2.611991] (project_clearpath) StdoutLine: {'line': b'6: No problems found\n'}
+[2.616066] (-) TimerEvent: {}
+[2.618014] (project_clearpath) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[2.618362] (project_clearpath) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/ana/final/project_clearpath/build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml'\n"}
+[2.627757] (project_clearpath) StdoutLine: {'line': b' 6/10 Test  #6: xmllint ......................................   Passed    0.69 sec\n'}
+[2.628173] (project_clearpath) StdoutLine: {'line': b'test 7\n'}
+[2.628325] (project_clearpath) StdoutLine: {'line': b'      Start  7: DebrisDetectorTest.DetectDebrisAndMove\n'}
+[2.628516] (project_clearpath) StdoutLine: {'line': b'\n'}
+[2.628620] (project_clearpath) StdoutLine: {'line': b'7: Test command: /home/ana/final/project_clearpath/build/project_clearpath/test/cpp-test "--gtest_filter=DebrisDetectorTest.DetectDebrisAndMove" "--gtest_also_run_disabled_tests"\n'}
+[2.629050] (project_clearpath) StdoutLine: {'line': b'7: Test timeout computed to be: 10000000\n'}
+[2.691622] (project_clearpath) StdoutLine: {'line': b'7: Note: Google Test filter = DebrisDetectorTest.DetectDebrisAndMove\n'}
+[2.691888] (project_clearpath) StdoutLine: {'line': b'7: [==========] Running 1 test from 1 test suite.\n'}
+[2.691945] (project_clearpath) StdoutLine: {'line': b'7: [----------] Global test environment set-up.\n'}
+[2.691984] (project_clearpath) StdoutLine: {'line': b'7: [----------] 1 test from DebrisDetectorTest\n'}
+[2.692020] (project_clearpath) StdoutLine: {'line': b'7: [ RUN      ] DebrisDetectorTest.DetectDebrisAndMove\n'}
+[2.716251] (-) TimerEvent: {}
+[2.816685] (-) TimerEvent: {}
+[2.917066] (-) TimerEvent: {}
+[2.945500] (project_clearpath) StdoutLine: {'line': b'7: [ERROR] [1732422037.200738597] [debris_detector]: Error converting image: Unrecognized image encoding []\n'}
+[3.017229] (-) TimerEvent: {}
+[3.117869] (-) TimerEvent: {}
+[3.218537] (-) TimerEvent: {}
+[3.318972] (-) TimerEvent: {}
+[3.419274] (-) TimerEvent: {}
+[3.519750] (-) TimerEvent: {}
+[3.620173] (-) TimerEvent: {}
+[3.720633] (-) TimerEvent: {}
+[3.820955] (-) TimerEvent: {}
+[3.921249] (-) TimerEvent: {}
+[4.021678] (-) TimerEvent: {}
+[4.122302] (-) TimerEvent: {}
+[4.222931] (-) TimerEvent: {}
+[4.323253] (-) TimerEvent: {}
+[4.423618] (-) TimerEvent: {}
+[4.523972] (-) TimerEvent: {}
+[4.624425] (-) TimerEvent: {}
+[4.724779] (-) TimerEvent: {}
+[4.825205] (-) TimerEvent: {}
+[4.925624] (-) TimerEvent: {}
+[5.026068] (-) TimerEvent: {}
+[5.126722] (-) TimerEvent: {}
+[5.227353] (-) TimerEvent: {}
+[5.328026] (-) TimerEvent: {}
+[5.428338] (-) TimerEvent: {}
+[5.528686] (-) TimerEvent: {}
+[5.629171] (-) TimerEvent: {}
+[5.729536] (-) TimerEvent: {}
+[5.830082] (-) TimerEvent: {}
+[5.930514] (-) TimerEvent: {}
+[6.030882] (-) TimerEvent: {}
+[6.131263] (-) TimerEvent: {}
+[6.231631] (-) TimerEvent: {}
+[6.332006] (-) TimerEvent: {}
+[6.432296] (-) TimerEvent: {}
+[6.532700] (-) TimerEvent: {}
+[6.633080] (-) TimerEvent: {}
+[6.733583] (-) TimerEvent: {}
+[6.834318] (-) TimerEvent: {}
+[6.934811] (-) TimerEvent: {}
+[7.035191] (-) TimerEvent: {}
+[7.135547] (-) TimerEvent: {}
+[7.235909] (-) TimerEvent: {}
+[7.336352] (-) TimerEvent: {}
+[7.436770] (-) TimerEvent: {}
+[7.537279] (-) TimerEvent: {}
+[7.637736] (-) TimerEvent: {}
+[7.738255] (-) TimerEvent: {}
+[7.838759] (-) TimerEvent: {}
+[7.939241] (-) TimerEvent: {}
+[8.039616] (-) TimerEvent: {}
+[8.140377] (-) TimerEvent: {}
+[8.241116] (-) TimerEvent: {}
+[8.341552] (-) TimerEvent: {}
+[8.442004] (-) TimerEvent: {}
+[8.542523] (-) TimerEvent: {}
+[8.642901] (-) TimerEvent: {}
+[8.743322] (-) TimerEvent: {}
+[8.844032] (-) TimerEvent: {}
+[8.944455] (-) TimerEvent: {}
+[9.044875] (-) TimerEvent: {}
+[9.145579] (-) TimerEvent: {}
+[9.246105] (-) TimerEvent: {}
+[9.346604] (-) TimerEvent: {}
+[9.447119] (-) TimerEvent: {}
+[9.547603] (-) TimerEvent: {}
+[9.648252] (-) TimerEvent: {}
+[9.748762] (-) TimerEvent: {}
+[9.849145] (-) TimerEvent: {}
+[9.949588] (-) TimerEvent: {}
+[10.050138] (-) TimerEvent: {}
+[10.150578] (-) TimerEvent: {}
+[10.251193] (-) TimerEvent: {}
+[10.351644] (-) TimerEvent: {}
+[10.452215] (-) TimerEvent: {}
+[10.552725] (-) TimerEvent: {}
+[10.653290] (-) TimerEvent: {}
+[10.754025] (-) TimerEvent: {}
+[10.854434] (-) TimerEvent: {}
+[10.954882] (-) TimerEvent: {}
+[11.055399] (-) TimerEvent: {}
+[11.155792] (-) TimerEvent: {}
+[11.256205] (-) TimerEvent: {}
+[11.356755] (-) TimerEvent: {}
+[11.457184] (-) TimerEvent: {}
+[11.557781] (-) TimerEvent: {}
+[11.658128] (-) TimerEvent: {}
+[11.758451] (-) TimerEvent: {}
+[11.858960] (-) TimerEvent: {}
+[11.959482] (-) TimerEvent: {}
+[12.059972] (-) TimerEvent: {}
+[12.160719] (-) TimerEvent: {}
+[12.261553] (-) TimerEvent: {}
+[12.362377] (-) TimerEvent: {}
+[12.466499] (-) TimerEvent: {}
+[12.567470] (-) TimerEvent: {}
+[12.668056] (-) TimerEvent: {}
+[12.768527] (-) TimerEvent: {}
+[12.869017] (-) TimerEvent: {}
+[12.969470] (-) TimerEvent: {}
+[13.069961] (-) TimerEvent: {}
+[13.170401] (-) TimerEvent: {}
+[13.270759] (-) TimerEvent: {}
+[13.371084] (-) TimerEvent: {}
+[13.471461] (-) TimerEvent: {}
+[13.571835] (-) TimerEvent: {}
+[13.672248] (-) TimerEvent: {}
+[13.772948] (-) TimerEvent: {}
+[13.873503] (-) TimerEvent: {}
+[13.973989] (-) TimerEvent: {}
+[14.074456] (-) TimerEvent: {}
+[14.175250] (-) TimerEvent: {}
+[14.275704] (-) TimerEvent: {}
+[14.376211] (-) TimerEvent: {}
+[14.476557] (-) TimerEvent: {}
+[14.577021] (-) TimerEvent: {}
+[14.677553] (-) TimerEvent: {}
+[14.777959] (-) TimerEvent: {}
+[14.878529] (-) TimerEvent: {}
+[14.979041] (-) TimerEvent: {}
+[15.079704] (-) TimerEvent: {}
+[15.180301] (-) TimerEvent: {}
+[15.280852] (-) TimerEvent: {}
+[15.381234] (-) TimerEvent: {}
+[15.481577] (-) TimerEvent: {}
+[15.582030] (-) TimerEvent: {}
+[15.682539] (-) TimerEvent: {}
+[15.782987] (-) TimerEvent: {}
+[15.883318] (-) TimerEvent: {}
+[15.983708] (-) TimerEvent: {}
+[16.084123] (-) TimerEvent: {}
+[16.184460] (-) TimerEvent: {}
+[16.284990] (-) TimerEvent: {}
+[16.385970] (-) TimerEvent: {}
+[16.486500] (-) TimerEvent: {}
+[16.587527] (-) TimerEvent: {}
+[16.688099] (-) TimerEvent: {}
+[16.788554] (-) TimerEvent: {}
+[16.888943] (-) TimerEvent: {}
+[16.990711] (-) TimerEvent: {}
+[17.091104] (-) TimerEvent: {}
+[17.191531] (-) TimerEvent: {}
+[17.292105] (-) TimerEvent: {}
+[17.392601] (-) TimerEvent: {}
+[17.492967] (-) TimerEvent: {}
+[17.593592] (-) TimerEvent: {}
+[17.694117] (-) TimerEvent: {}
+[17.794517] (-) TimerEvent: {}
+[17.895054] (-) TimerEvent: {}
+[17.995721] (-) TimerEvent: {}
+[18.096059] (-) TimerEvent: {}
+[18.196432] (-) TimerEvent: {}
+[18.296780] (-) TimerEvent: {}
+[18.397255] (-) TimerEvent: {}
+[18.497711] (-) TimerEvent: {}
+[18.598213] (-) TimerEvent: {}
+[18.698558] (-) TimerEvent: {}
+[18.799403] (-) TimerEvent: {}
+[18.899813] (-) TimerEvent: {}
+[19.000353] (-) TimerEvent: {}
+[19.100873] (-) TimerEvent: {}
+[19.201451] (-) TimerEvent: {}
+[19.301888] (-) TimerEvent: {}
+[19.402274] (-) TimerEvent: {}
+[19.502852] (-) TimerEvent: {}
+[19.603556] (-) TimerEvent: {}
+[19.704031] (-) TimerEvent: {}
+[19.804387] (-) TimerEvent: {}
+[19.904738] (-) TimerEvent: {}
+[20.006164] (-) TimerEvent: {}
+[20.106502] (-) TimerEvent: {}
+[20.206874] (-) TimerEvent: {}
+[20.307223] (-) TimerEvent: {}
+[20.407516] (-) TimerEvent: {}
+[20.508223] (-) TimerEvent: {}
+[20.608527] (-) TimerEvent: {}
+[20.708976] (-) TimerEvent: {}
+[20.809668] (-) TimerEvent: {}
+[20.909970] (-) TimerEvent: {}
+[21.010520] (-) TimerEvent: {}
+[21.111107] (-) TimerEvent: {}
+[21.211693] (-) TimerEvent: {}
+[21.312304] (-) TimerEvent: {}
+[21.412699] (-) TimerEvent: {}
+[21.513079] (-) TimerEvent: {}
+[21.613501] (-) TimerEvent: {}
+[21.714095] (-) TimerEvent: {}
+[21.814795] (-) TimerEvent: {}
+[21.915216] (-) TimerEvent: {}
+[22.015544] (-) TimerEvent: {}
+[22.116112] (-) TimerEvent: {}
+[22.217006] (-) TimerEvent: {}
+[22.317644] (-) TimerEvent: {}
+[22.418513] (-) TimerEvent: {}
+[22.518922] (-) TimerEvent: {}
+[22.619503] (-) TimerEvent: {}
+[22.720132] (-) TimerEvent: {}
+[22.820541] (-) TimerEvent: {}
+[22.921541] (-) TimerEvent: {}
+[23.021958] (-) TimerEvent: {}
+[23.122359] (-) TimerEvent: {}
+[23.222663] (-) TimerEvent: {}
+[23.322965] (-) TimerEvent: {}
+[23.423294] (-) TimerEvent: {}
+[23.523691] (-) TimerEvent: {}
+[23.624047] (-) TimerEvent: {}
+[23.724875] (-) TimerEvent: {}
+[23.825903] (-) TimerEvent: {}
+[23.926382] (-) TimerEvent: {}
+[24.026692] (-) TimerEvent: {}
+[24.127040] (-) TimerEvent: {}
+[24.227382] (-) TimerEvent: {}
+[24.327812] (-) TimerEvent: {}
+[24.428274] (-) TimerEvent: {}
+[24.528618] (-) TimerEvent: {}
+[24.629061] (-) TimerEvent: {}
+[24.729654] (-) TimerEvent: {}
+[24.829968] (-) TimerEvent: {}
+[24.930299] (-) TimerEvent: {}
+[25.030654] (-) TimerEvent: {}
+[25.130935] (-) TimerEvent: {}
+[25.231309] (-) TimerEvent: {}
+[25.333497] (-) TimerEvent: {}
+[25.433878] (-) TimerEvent: {}
+[25.534660] (-) TimerEvent: {}
+[25.635677] (-) TimerEvent: {}
+[25.736006] (-) TimerEvent: {}
+[25.836567] (-) TimerEvent: {}
+[25.937217] (-) TimerEvent: {}
+[26.037623] (-) TimerEvent: {}
+[26.138073] (-) TimerEvent: {}
+[26.238389] (-) TimerEvent: {}
+[26.338724] (-) TimerEvent: {}
+[26.439123] (-) TimerEvent: {}
+[26.539478] (-) TimerEvent: {}
+[26.639795] (-) TimerEvent: {}
+[26.740159] (-) TimerEvent: {}
+[26.840487] (-) TimerEvent: {}
+[26.940822] (-) TimerEvent: {}
+[27.041144] (-) TimerEvent: {}
+[27.141627] (-) TimerEvent: {}
+[27.242167] (-) TimerEvent: {}
+[27.342616] (-) TimerEvent: {}
+[27.443665] (-) TimerEvent: {}
+[27.544092] (-) TimerEvent: {}
+[27.644665] (-) TimerEvent: {}
+[27.745272] (-) TimerEvent: {}
+[27.845623] (-) TimerEvent: {}
+[27.946137] (-) TimerEvent: {}
+[28.046425] (-) TimerEvent: {}
+[28.146766] (-) TimerEvent: {}
+[28.247260] (-) TimerEvent: {}
+[28.347794] (-) TimerEvent: {}
+[28.448104] (-) TimerEvent: {}
+[28.548701] (-) TimerEvent: {}
+[28.648997] (-) TimerEvent: {}
+[28.749614] (-) TimerEvent: {}
+[28.850075] (-) TimerEvent: {}
+[28.950544] (-) TimerEvent: {}
+[29.051772] (-) TimerEvent: {}
+[29.152233] (-) TimerEvent: {}
+[29.252680] (-) TimerEvent: {}
+[29.353114] (-) TimerEvent: {}
+[29.453547] (-) TimerEvent: {}
+[29.553958] (-) TimerEvent: {}
+[29.654332] (-) TimerEvent: {}
+[29.754744] (-) TimerEvent: {}
+[29.855933] (-) TimerEvent: {}
+[29.956427] (-) TimerEvent: {}
+[30.056951] (-) TimerEvent: {}
+[30.157295] (-) TimerEvent: {}
+[30.257814] (-) TimerEvent: {}
+[30.358295] (-) TimerEvent: {}
+[30.458987] (-) TimerEvent: {}
+[30.559312] (-) TimerEvent: {}
+[30.659756] (-) TimerEvent: {}
+[30.760323] (-) TimerEvent: {}
+[30.860616] (-) TimerEvent: {}
+[30.960982] (-) TimerEvent: {}
+[31.061328] (-) TimerEvent: {}
+[31.161648] (-) TimerEvent: {}
+[31.262072] (-) TimerEvent: {}
+[31.362583] (-) TimerEvent: {}
+[31.462999] (-) TimerEvent: {}
+[31.563532] (-) TimerEvent: {}
+[31.664051] (-) TimerEvent: {}
+[31.764774] (-) TimerEvent: {}
+[31.865241] (-) TimerEvent: {}
+[31.965567] (-) TimerEvent: {}
+[32.065980] (-) TimerEvent: {}
+[32.166361] (-) TimerEvent: {}
+[32.267130] (-) TimerEvent: {}
+[32.369778] (-) TimerEvent: {}
+[32.470923] (-) TimerEvent: {}
+[32.571664] (-) TimerEvent: {}
+[32.671947] (-) TimerEvent: {}
+[32.772532] (-) TimerEvent: {}
+[32.872923] (-) TimerEvent: {}
+[32.973401] (-) TimerEvent: {}
+[33.074035] (-) TimerEvent: {}
+[33.174583] (-) TimerEvent: {}
+[33.275002] (-) TimerEvent: {}
+[33.375400] (-) TimerEvent: {}
+[33.475854] (-) TimerEvent: {}
+[33.576272] (-) TimerEvent: {}
+[33.676730] (-) TimerEvent: {}
+[33.777206] (-) TimerEvent: {}
+[33.877729] (-) TimerEvent: {}
+[33.978278] (-) TimerEvent: {}
+[34.078655] (-) TimerEvent: {}
+[34.178986] (-) TimerEvent: {}
+[34.279307] (-) TimerEvent: {}
+[34.379703] (-) TimerEvent: {}
+[34.480073] (-) TimerEvent: {}
+[34.580408] (-) TimerEvent: {}
+[34.680832] (-) TimerEvent: {}
+[34.781547] (-) TimerEvent: {}
+[34.881950] (-) TimerEvent: {}
+[34.982282] (-) TimerEvent: {}
+[35.082671] (-) TimerEvent: {}
+[35.183171] (-) TimerEvent: {}
+[35.283590] (-) TimerEvent: {}
+[35.384048] (-) TimerEvent: {}
+[35.484368] (-) TimerEvent: {}
+[35.584906] (-) TimerEvent: {}
+[35.685262] (-) TimerEvent: {}
+[35.785781] (-) TimerEvent: {}
+[35.886329] (-) TimerEvent: {}
+[35.986728] (-) TimerEvent: {}
+[36.087108] (-) TimerEvent: {}
+[36.187568] (-) TimerEvent: {}
+[36.288108] (-) TimerEvent: {}
+[36.388455] (-) TimerEvent: {}
+[36.488868] (-) TimerEvent: {}
+[36.589204] (-) TimerEvent: {}
+[36.689656] (-) TimerEvent: {}
+[36.789990] (-) TimerEvent: {}
+[36.890450] (-) TimerEvent: {}
+[36.991007] (-) TimerEvent: {}
+[37.091408] (-) TimerEvent: {}
+[37.191923] (-) TimerEvent: {}
+[37.292242] (-) TimerEvent: {}
+[37.392719] (-) TimerEvent: {}
+[37.493062] (-) TimerEvent: {}
+[37.593896] (-) TimerEvent: {}
+[37.694714] (-) TimerEvent: {}
+[37.795329] (-) TimerEvent: {}
+[37.896007] (-) TimerEvent: {}
+[37.996403] (-) TimerEvent: {}
+[38.096847] (-) TimerEvent: {}
+[38.197264] (-) TimerEvent: {}
+[38.297808] (-) TimerEvent: {}
+[38.398187] (-) TimerEvent: {}
+[38.498713] (-) TimerEvent: {}
+[38.599054] (-) TimerEvent: {}
+[38.699354] (-) TimerEvent: {}
+[38.799888] (-) TimerEvent: {}
+[38.900456] (-) TimerEvent: {}
+[39.000859] (-) TimerEvent: {}
+[39.101212] (-) TimerEvent: {}
+[39.201568] (-) TimerEvent: {}
+[39.301996] (-) TimerEvent: {}
+[39.402331] (-) TimerEvent: {}
+[39.502708] (-) TimerEvent: {}
+[39.603132] (-) TimerEvent: {}
+[39.703559] (-) TimerEvent: {}
+[39.804072] (-) TimerEvent: {}
+[39.904666] (-) TimerEvent: {}
+[40.004993] (-) TimerEvent: {}
+[40.105306] (-) TimerEvent: {}
+[40.205887] (-) TimerEvent: {}
+[40.306373] (-) TimerEvent: {}
+[40.406902] (-) TimerEvent: {}
+[40.507384] (-) TimerEvent: {}
+[40.607872] (-) TimerEvent: {}
+[40.708557] (-) TimerEvent: {}
+[40.808931] (-) TimerEvent: {}
+[40.909314] (-) TimerEvent: {}
+[41.009763] (-) TimerEvent: {}
+[41.110183] (-) TimerEvent: {}
+[41.210721] (-) TimerEvent: {}
+[41.311283] (-) TimerEvent: {}
+[41.412273] (-) TimerEvent: {}
+[41.512851] (-) TimerEvent: {}
+[41.613218] (-) TimerEvent: {}
+[41.713725] (-) TimerEvent: {}
+[41.814308] (-) TimerEvent: {}
+[41.914872] (-) TimerEvent: {}
+[42.015910] (-) TimerEvent: {}
+[42.116491] (-) TimerEvent: {}
+[42.217016] (-) TimerEvent: {}
+[42.317706] (-) TimerEvent: {}
+[42.418374] (-) TimerEvent: {}
+[42.518864] (-) TimerEvent: {}
+[42.619166] (-) TimerEvent: {}
+[42.719945] (-) TimerEvent: {}
+[42.820499] (-) TimerEvent: {}
+[42.921026] (-) TimerEvent: {}
+[43.021533] (-) TimerEvent: {}
+[43.122180] (-) TimerEvent: {}
+[43.222669] (-) TimerEvent: {}
+[43.323434] (-) TimerEvent: {}
+[43.424205] (-) TimerEvent: {}
+[43.524838] (-) TimerEvent: {}
+[43.625340] (-) TimerEvent: {}
+[43.725868] (-) TimerEvent: {}
+[43.826365] (-) TimerEvent: {}
+[43.926699] (-) TimerEvent: {}
+[44.027030] (-) TimerEvent: {}
+[44.127615] (-) TimerEvent: {}
+[44.227974] (-) TimerEvent: {}
+[44.328399] (-) TimerEvent: {}
+[44.429199] (-) TimerEvent: {}
+[44.529765] (-) TimerEvent: {}
+[44.630093] (-) TimerEvent: {}
+[44.730518] (-) TimerEvent: {}
+[44.831037] (-) TimerEvent: {}
+[44.931761] (-) TimerEvent: {}
+[45.032208] (-) TimerEvent: {}
+[45.132583] (-) TimerEvent: {}
+[45.233091] (-) TimerEvent: {}
+[45.333511] (-) TimerEvent: {}
+[45.433953] (-) TimerEvent: {}
+[45.534302] (-) TimerEvent: {}
+[45.634846] (-) TimerEvent: {}
+[45.735509] (-) TimerEvent: {}
+[45.835900] (-) TimerEvent: {}
+[45.936276] (-) TimerEvent: {}
+[46.037056] (-) TimerEvent: {}
+[46.137499] (-) TimerEvent: {}
+[46.238098] (-) TimerEvent: {}
+[46.338600] (-) TimerEvent: {}
+[46.439126] (-) TimerEvent: {}
+[46.539835] (-) TimerEvent: {}
+[46.640512] (-) TimerEvent: {}
+[46.741068] (-) TimerEvent: {}
+[46.841507] (-) TimerEvent: {}
+[46.941963] (-) TimerEvent: {}
+[47.042309] (-) TimerEvent: {}
+[47.142762] (-) TimerEvent: {}
+[47.243141] (-) TimerEvent: {}
+[47.343638] (-) TimerEvent: {}
+[47.444203] (-) TimerEvent: {}
+[47.544588] (-) TimerEvent: {}
+[47.644990] (-) TimerEvent: {}
+[47.745408] (-) TimerEvent: {}
+[47.846467] (-) TimerEvent: {}
+[47.946827] (-) TimerEvent: {}
+[48.047323] (-) TimerEvent: {}
+[48.147780] (-) TimerEvent: {}
+[48.248481] (-) TimerEvent: {}
+[48.349120] (-) TimerEvent: {}
+[48.450111] (-) TimerEvent: {}
+[48.550594] (-) TimerEvent: {}
+[48.651028] (-) TimerEvent: {}
+[48.751575] (-) TimerEvent: {}
+[48.851934] (-) TimerEvent: {}
+[48.952442] (-) TimerEvent: {}
+[49.053256] (-) TimerEvent: {}
+[49.153661] (-) TimerEvent: {}
+[49.254179] (-) TimerEvent: {}
+[49.354662] (-) TimerEvent: {}
+[49.455280] (-) TimerEvent: {}
+[49.555623] (-) TimerEvent: {}
+[49.656026] (-) TimerEvent: {}
+[49.756463] (-) TimerEvent: {}
+[49.856850] (-) TimerEvent: {}
+[49.957196] (-) TimerEvent: {}
+[50.058458] (-) TimerEvent: {}
+[50.158871] (-) TimerEvent: {}
+[50.259252] (-) TimerEvent: {}
+[50.359631] (-) TimerEvent: {}
+[50.460108] (-) TimerEvent: {}
+[50.560476] (-) TimerEvent: {}
+[50.660908] (-) TimerEvent: {}
+[50.761239] (-) TimerEvent: {}
+[50.861665] (-) TimerEvent: {}
+[50.962115] (-) TimerEvent: {}
+[51.063355] (-) TimerEvent: {}
+[51.163660] (-) TimerEvent: {}
+[51.264034] (-) TimerEvent: {}
+[51.364542] (-) TimerEvent: {}
+[51.465281] (-) TimerEvent: {}
+[51.565572] (-) TimerEvent: {}
+[51.665978] (-) TimerEvent: {}
+[51.766345] (-) TimerEvent: {}
+[51.866848] (-) TimerEvent: {}
+[51.967152] (-) TimerEvent: {}
+[52.067463] (-) TimerEvent: {}
+[52.167915] (-) TimerEvent: {}
+[52.268369] (-) TimerEvent: {}
+[52.368700] (-) TimerEvent: {}
+[52.469167] (-) TimerEvent: {}
+[52.569697] (-) TimerEvent: {}
+[52.670194] (-) TimerEvent: {}
+[52.771312] (-) TimerEvent: {}
+[52.871923] (-) TimerEvent: {}
+[52.972348] (-) TimerEvent: {}
+[53.072996] (-) TimerEvent: {}
+[53.173528] (-) TimerEvent: {}
+[53.274200] (-) TimerEvent: {}
+[53.374749] (-) TimerEvent: {}
+[53.475209] (-) TimerEvent: {}
+[53.575870] (-) TimerEvent: {}
+[53.676450] (-) TimerEvent: {}
+[53.777195] (-) TimerEvent: {}
+[53.877660] (-) TimerEvent: {}
+[53.978140] (-) TimerEvent: {}
+[54.078506] (-) TimerEvent: {}
+[54.178872] (-) TimerEvent: {}
+[54.279282] (-) TimerEvent: {}
+[54.379853] (-) TimerEvent: {}
+[54.480224] (-) TimerEvent: {}
+[54.580741] (-) TimerEvent: {}
+[54.681175] (-) TimerEvent: {}
+[54.781484] (-) TimerEvent: {}
+[54.881937] (-) TimerEvent: {}
+[54.982639] (-) TimerEvent: {}
+[55.083338] (-) TimerEvent: {}
+[55.183907] (-) TimerEvent: {}
+[55.284394] (-) TimerEvent: {}
+[55.384841] (-) TimerEvent: {}
+[55.485300] (-) TimerEvent: {}
+[55.585604] (-) TimerEvent: {}
+[55.686031] (-) TimerEvent: {}
+[55.787186] (-) TimerEvent: {}
+[55.887525] (-) TimerEvent: {}
+[55.987895] (-) TimerEvent: {}
+[56.088355] (-) TimerEvent: {}
+[56.188811] (-) TimerEvent: {}
+[56.289245] (-) TimerEvent: {}
+[56.389710] (-) TimerEvent: {}
+[56.490290] (-) TimerEvent: {}
+[56.590696] (-) TimerEvent: {}
+[56.691160] (-) TimerEvent: {}
+[56.791525] (-) TimerEvent: {}
+[56.892014] (-) TimerEvent: {}
+[56.993513] (-) TimerEvent: {}
+[57.094101] (-) TimerEvent: {}
+[57.194548] (-) TimerEvent: {}
+[57.295026] (-) TimerEvent: {}
+[57.395445] (-) TimerEvent: {}
+[57.495850] (-) TimerEvent: {}
+[57.596304] (-) TimerEvent: {}
+[57.696752] (-) TimerEvent: {}
+[57.797302] (-) TimerEvent: {}
+[57.897833] (-) TimerEvent: {}
+[57.998192] (-) TimerEvent: {}
+[58.098622] (-) TimerEvent: {}
+[58.199084] (-) TimerEvent: {}
+[58.299596] (-) TimerEvent: {}
+[58.400108] (-) TimerEvent: {}
+[58.500720] (-) TimerEvent: {}
+[58.601145] (-) TimerEvent: {}
+[58.701500] (-) TimerEvent: {}
+[58.801982] (-) TimerEvent: {}
+[58.902952] (-) TimerEvent: {}
+[59.003598] (-) TimerEvent: {}
+[59.103986] (-) TimerEvent: {}
+[59.204395] (-) TimerEvent: {}
+[59.304808] (-) TimerEvent: {}
+[59.405274] (-) TimerEvent: {}
+[59.505790] (-) TimerEvent: {}
+[59.606211] (-) TimerEvent: {}
+[59.706598] (-) TimerEvent: {}
+[59.807076] (-) TimerEvent: {}
+[59.907614] (-) TimerEvent: {}
+[60.008041] (-) TimerEvent: {}
+[60.108403] (-) TimerEvent: {}
+[60.208922] (-) TimerEvent: {}
+[60.309368] (-) TimerEvent: {}
+[60.409897] (-) TimerEvent: {}
+[60.510294] (-) TimerEvent: {}
+[60.610718] (-) TimerEvent: {}
+[60.711125] (-) TimerEvent: {}
+[60.811551] (-) TimerEvent: {}
+[60.912206] (-) TimerEvent: {}
+[61.012543] (-) TimerEvent: {}
+[61.112979] (-) TimerEvent: {}
+[61.213357] (-) TimerEvent: {}
+[61.313872] (-) TimerEvent: {}
+[61.414495] (-) TimerEvent: {}
+[61.516193] (-) TimerEvent: {}
+[61.616556] (-) TimerEvent: {}
+[61.717017] (-) TimerEvent: {}
+[61.817498] (-) TimerEvent: {}
+[61.917918] (-) TimerEvent: {}
+[62.018395] (-) TimerEvent: {}
+[62.118956] (-) TimerEvent: {}
+[62.219477] (-) TimerEvent: {}
+[62.319985] (-) TimerEvent: {}
+[62.420453] (-) TimerEvent: {}
+[62.520824] (-) TimerEvent: {}
+[62.621325] (-) TimerEvent: {}
+[62.721974] (-) TimerEvent: {}
+[62.822687] (-) TimerEvent: {}
+[62.922961] (-) TimerEvent: {}
+[63.023518] (-) TimerEvent: {}
+[63.124269] (-) TimerEvent: {}
+[63.224718] (-) TimerEvent: {}
+[63.325088] (-) TimerEvent: {}
+[63.425519] (-) TimerEvent: {}
+[63.525842] (-) TimerEvent: {}
+[63.626396] (-) TimerEvent: {}
+[63.726745] (-) TimerEvent: {}
+[63.827173] (-) TimerEvent: {}
+[63.927677] (-) TimerEvent: {}
+[64.028205] (-) TimerEvent: {}
+[64.128627] (-) TimerEvent: {}
+[64.229077] (-) TimerEvent: {}
+[64.329631] (-) TimerEvent: {}
+[64.430518] (-) TimerEvent: {}
+[64.530937] (-) TimerEvent: {}
+[64.631326] (-) TimerEvent: {}
+[64.731664] (-) TimerEvent: {}
+[64.832279] (-) TimerEvent: {}
+[64.932602] (-) TimerEvent: {}
+[65.032946] (-) TimerEvent: {}
+[65.133340] (-) TimerEvent: {}
+[65.233727] (-) TimerEvent: {}
+[65.334097] (-) TimerEvent: {}
+[65.434618] (-) TimerEvent: {}
+[65.535184] (-) TimerEvent: {}
+[65.635666] (-) TimerEvent: {}
+[65.736174] (-) TimerEvent: {}
+[65.836688] (-) TimerEvent: {}
+[65.937149] (-) TimerEvent: {}
+[66.037499] (-) TimerEvent: {}
+[66.137908] (-) TimerEvent: {}
+[66.238214] (-) TimerEvent: {}
+[66.338591] (-) TimerEvent: {}
+[66.438955] (-) TimerEvent: {}
+[66.539288] (-) TimerEvent: {}
+[66.639634] (-) TimerEvent: {}
+[66.740006] (-) TimerEvent: {}
+[66.840339] (-) TimerEvent: {}
+[66.940657] (-) TimerEvent: {}
+[67.041061] (-) TimerEvent: {}
+[67.141393] (-) TimerEvent: {}
+[67.241825] (-) TimerEvent: {}
+[67.342315] (-) TimerEvent: {}
+[67.442788] (-) TimerEvent: {}
+[67.543278] (-) TimerEvent: {}
+[67.643665] (-) TimerEvent: {}
+[67.744061] (-) TimerEvent: {}
+[67.844569] (-) TimerEvent: {}
+[67.944980] (-) TimerEvent: {}
+[68.045390] (-) TimerEvent: {}
+[68.146023] (-) TimerEvent: {}
+[68.246385] (-) TimerEvent: {}
+[68.347320] (-) TimerEvent: {}
+[68.447647] (-) TimerEvent: {}
+[68.548046] (-) TimerEvent: {}
+[68.648467] (-) TimerEvent: {}
+[68.749148] (-) TimerEvent: {}
+[68.849542] (-) TimerEvent: {}
+[68.950089] (-) TimerEvent: {}
+[69.050434] (-) TimerEvent: {}
+[69.150867] (-) TimerEvent: {}
+[69.251396] (-) TimerEvent: {}
+[69.351879] (-) TimerEvent: {}
+[69.452325] (-) TimerEvent: {}
+[69.553039] (-) TimerEvent: {}
+[69.653578] (-) TimerEvent: {}
+[69.754057] (-) TimerEvent: {}
+[69.854365] (-) TimerEvent: {}
+[69.954970] (-) TimerEvent: {}
+[70.055307] (-) TimerEvent: {}
+[70.155745] (-) TimerEvent: {}
+[70.256531] (-) TimerEvent: {}
+[70.356860] (-) TimerEvent: {}
+[70.457132] (-) TimerEvent: {}
+[70.557984] (-) TimerEvent: {}
+[70.658692] (-) TimerEvent: {}
+[70.759450] (-) TimerEvent: {}
+[70.860353] (-) TimerEvent: {}
+[70.960887] (-) TimerEvent: {}
+[71.061266] (-) TimerEvent: {}
+[71.161729] (-) TimerEvent: {}
+[71.262248] (-) TimerEvent: {}
+[71.362667] (-) TimerEvent: {}
+[71.463106] (-) TimerEvent: {}
+[71.563646] (-) TimerEvent: {}
+[71.664201] (-) TimerEvent: {}
+[71.764657] (-) TimerEvent: {}
+[71.865285] (-) TimerEvent: {}
+[71.965844] (-) TimerEvent: {}
+[72.066266] (-) TimerEvent: {}
+[72.166748] (-) TimerEvent: {}
+[72.267248] (-) TimerEvent: {}
+[72.367757] (-) TimerEvent: {}
+[72.468194] (-) TimerEvent: {}
+[72.568501] (-) TimerEvent: {}
+[72.669182] (-) TimerEvent: {}
+[72.769628] (-) TimerEvent: {}
+[72.870986] (-) TimerEvent: {}
+[72.971326] (-) TimerEvent: {}
+[73.071767] (-) TimerEvent: {}
+[73.172342] (-) TimerEvent: {}
+[73.272804] (-) TimerEvent: {}
+[73.373276] (-) TimerEvent: {}
+[73.473545] (-) TimerEvent: {}
+[73.574038] (-) TimerEvent: {}
+[73.674535] (-) TimerEvent: {}
+[73.774996] (-) TimerEvent: {}
+[73.875353] (-) TimerEvent: {}
+[73.975718] (-) TimerEvent: {}
+[74.076319] (-) TimerEvent: {}
+[74.176703] (-) TimerEvent: {}
+[74.277312] (-) TimerEvent: {}
+[74.377819] (-) TimerEvent: {}
+[74.478215] (-) TimerEvent: {}
+[74.578578] (-) TimerEvent: {}
+[74.679018] (-) TimerEvent: {}
+[74.779408] (-) TimerEvent: {}
+[74.879772] (-) TimerEvent: {}
+[74.980087] (-) TimerEvent: {}
+[75.080536] (-) TimerEvent: {}
+[75.181031] (-) TimerEvent: {}
+[75.281407] (-) TimerEvent: {}
+[75.381897] (-) TimerEvent: {}
+[75.485696] (-) TimerEvent: {}
+[75.586285] (-) TimerEvent: {}
+[75.686833] (-) TimerEvent: {}
+[75.787468] (-) TimerEvent: {}
+[75.888079] (-) TimerEvent: {}
+[75.988571] (-) TimerEvent: {}
+[76.088991] (-) TimerEvent: {}
+[76.189478] (-) TimerEvent: {}
+[76.290004] (-) TimerEvent: {}
+[76.390319] (-) TimerEvent: {}
+[76.490755] (-) TimerEvent: {}
+[76.591099] (-) TimerEvent: {}
+[76.691556] (-) TimerEvent: {}
+[76.792034] (-) TimerEvent: {}
+[76.892456] (-) TimerEvent: {}
+[76.992915] (-) TimerEvent: {}
+[77.093482] (-) TimerEvent: {}
+[77.194004] (-) TimerEvent: {}
+[77.294580] (-) TimerEvent: {}
+[77.395079] (-) TimerEvent: {}
+[77.495525] (-) TimerEvent: {}
+[77.596039] (-) TimerEvent: {}
+[77.696436] (-) TimerEvent: {}
+[77.797151] (-) TimerEvent: {}
+[77.897684] (-) TimerEvent: {}
+[77.998080] (-) TimerEvent: {}
+[78.098595] (-) TimerEvent: {}
+[78.199241] (-) TimerEvent: {}
+[78.299789] (-) TimerEvent: {}
+[78.400245] (-) TimerEvent: {}
+[78.500616] (-) TimerEvent: {}
+[78.601108] (-) TimerEvent: {}
+[78.701887] (-) TimerEvent: {}
+[78.802366] (-) TimerEvent: {}
+[78.902939] (-) TimerEvent: {}
+[79.003332] (-) TimerEvent: {}
+[79.103729] (-) TimerEvent: {}
+[79.204275] (-) TimerEvent: {}
+[79.304632] (-) TimerEvent: {}
+[79.405204] (-) TimerEvent: {}
+[79.505872] (-) TimerEvent: {}
+[79.606618] (-) TimerEvent: {}
+[79.707035] (-) TimerEvent: {}
+[79.807411] (-) TimerEvent: {}
+[79.908074] (-) TimerEvent: {}
+[80.008575] (-) TimerEvent: {}
+[80.109059] (-) TimerEvent: {}
+[80.209448] (-) TimerEvent: {}
+[80.309883] (-) TimerEvent: {}
+[80.410404] (-) TimerEvent: {}
+[80.510933] (-) TimerEvent: {}
+[80.611267] (-) TimerEvent: {}
+[80.711701] (-) TimerEvent: {}
+[80.812363] (-) TimerEvent: {}
+[80.912814] (-) TimerEvent: {}
+[81.013755] (-) TimerEvent: {}
+[81.114670] (-) TimerEvent: {}
+[81.215040] (-) TimerEvent: {}
+[81.315533] (-) TimerEvent: {}
+[81.415989] (-) TimerEvent: {}
+[81.516442] (-) TimerEvent: {}
+[81.616883] (-) TimerEvent: {}
+[81.717207] (-) TimerEvent: {}
+[81.817804] (-) TimerEvent: {}
+[81.919445] (-) TimerEvent: {}
+[82.019970] (-) TimerEvent: {}
+[82.120292] (-) TimerEvent: {}
+[82.220691] (-) TimerEvent: {}
+[82.321837] (-) TimerEvent: {}
+[82.422249] (-) TimerEvent: {}
+[82.522787] (-) TimerEvent: {}
+[82.623351] (-) TimerEvent: {}
+[82.723851] (-) TimerEvent: {}
+[82.824395] (-) TimerEvent: {}
+[82.924990] (-) TimerEvent: {}
+[83.075025] (-) TimerEvent: {}
+[83.175521] (-) TimerEvent: {}
+[83.275858] (-) TimerEvent: {}
+[83.376300] (-) TimerEvent: {}
+[83.476807] (-) TimerEvent: {}
+[83.577271] (-) TimerEvent: {}
+[83.678030] (-) TimerEvent: {}
+[83.778594] (-) TimerEvent: {}
+[83.879096] (-) TimerEvent: {}
+[83.979653] (-) TimerEvent: {}
+[84.080097] (-) TimerEvent: {}
+[84.180837] (-) TimerEvent: {}
+[84.281311] (-) TimerEvent: {}
+[84.382092] (-) TimerEvent: {}
+[84.482557] (-) TimerEvent: {}
+[84.583697] (-) TimerEvent: {}
+[84.684019] (-) TimerEvent: {}
+[84.784707] (-) TimerEvent: {}
+[84.885305] (-) TimerEvent: {}
+[84.985829] (-) TimerEvent: {}
+[85.086531] (-) TimerEvent: {}
+[85.187212] (-) TimerEvent: {}
+[85.287879] (-) TimerEvent: {}
+[85.389011] (-) TimerEvent: {}
+[85.489567] (-) TimerEvent: {}
+[85.590439] (-) TimerEvent: {}
+[85.691034] (-) TimerEvent: {}
+[85.791552] (-) TimerEvent: {}
+[85.891990] (-) TimerEvent: {}
+[85.992302] (-) TimerEvent: {}
+[86.092966] (-) TimerEvent: {}
+[86.193415] (-) TimerEvent: {}
+[86.293856] (-) TimerEvent: {}
+[86.394302] (-) TimerEvent: {}
+[86.494746] (-) TimerEvent: {}
+[86.595088] (-) TimerEvent: {}
+[86.695498] (-) TimerEvent: {}
+[86.795890] (-) TimerEvent: {}
+[86.896239] (-) TimerEvent: {}
+[86.996793] (-) TimerEvent: {}
+[87.097432] (-) TimerEvent: {}
+[87.198079] (-) TimerEvent: {}
+[87.298664] (-) TimerEvent: {}
+[87.399159] (-) TimerEvent: {}
+[87.500116] (-) TimerEvent: {}
+[87.600690] (-) TimerEvent: {}
+[87.701294] (-) TimerEvent: {}
+[87.801808] (-) TimerEvent: {}
+[87.902284] (-) TimerEvent: {}
+[88.002688] (-) TimerEvent: {}
+[88.102974] (-) TimerEvent: {}
+[88.203537] (-) TimerEvent: {}
+[88.304229] (-) TimerEvent: {}
+[88.404794] (-) TimerEvent: {}
+[88.505326] (-) TimerEvent: {}
+[88.605747] (-) TimerEvent: {}
+[88.706176] (-) TimerEvent: {}
+[88.806733] (-) TimerEvent: {}
+[88.907076] (-) TimerEvent: {}
+[89.007400] (-) TimerEvent: {}
+[89.107850] (-) TimerEvent: {}
+[89.208204] (-) TimerEvent: {}
+[89.309302] (-) TimerEvent: {}
+[89.409961] (-) TimerEvent: {}
+[89.510530] (-) TimerEvent: {}
+[89.611154] (-) TimerEvent: {}
+[89.711736] (-) TimerEvent: {}
+[89.812214] (-) TimerEvent: {}
+[89.912536] (-) TimerEvent: {}
+[90.013030] (-) TimerEvent: {}
+[90.113807] (-) TimerEvent: {}
+[90.214277] (-) TimerEvent: {}
+[90.314781] (-) TimerEvent: {}
+[90.415219] (-) TimerEvent: {}
+[90.515753] (-) TimerEvent: {}
+[90.616420] (-) TimerEvent: {}
+[90.716921] (-) TimerEvent: {}
+[90.817266] (-) TimerEvent: {}
+[90.917879] (-) TimerEvent: {}
+[91.018433] (-) TimerEvent: {}
+[91.118844] (-) TimerEvent: {}
+[91.219232] (-) TimerEvent: {}
+[91.319859] (-) TimerEvent: {}
+[91.420273] (-) TimerEvent: {}
+[91.521302] (-) TimerEvent: {}
+[91.621768] (-) TimerEvent: {}
+[91.722858] (-) TimerEvent: {}
+[91.823432] (-) TimerEvent: {}
+[91.923860] (-) TimerEvent: {}
+[92.024187] (-) TimerEvent: {}
+[92.124480] (-) TimerEvent: {}
+[92.224826] (-) TimerEvent: {}
+[92.325383] (-) TimerEvent: {}
+[92.425742] (-) TimerEvent: {}
+[92.526210] (-) TimerEvent: {}
+[92.626651] (-) TimerEvent: {}
+[92.726965] (-) TimerEvent: {}
+[92.827543] (-) TimerEvent: {}
+[92.928364] (-) TimerEvent: {}
+[93.037954] (-) TimerEvent: {}
+[93.138326] (-) TimerEvent: {}
+[93.238734] (-) TimerEvent: {}
+[93.339449] (-) TimerEvent: {}
+[93.439832] (-) TimerEvent: {}
+[93.540511] (-) TimerEvent: {}
+[93.640920] (-) TimerEvent: {}
+[93.741780] (-) TimerEvent: {}
+[93.842269] (-) TimerEvent: {}
+[93.942882] (-) TimerEvent: {}
+[94.043456] (-) TimerEvent: {}
+[94.143927] (-) TimerEvent: {}
+[94.244331] (-) TimerEvent: {}
+[94.344818] (-) TimerEvent: {}
+[94.445161] (-) TimerEvent: {}
+[94.545695] (-) TimerEvent: {}
+[94.646062] (-) TimerEvent: {}
+[94.746526] (-) TimerEvent: {}
+[94.847138] (-) TimerEvent: {}
+[94.947586] (-) TimerEvent: {}
+[95.047964] (-) TimerEvent: {}
+[95.148285] (-) TimerEvent: {}
+[95.248696] (-) TimerEvent: {}
+[95.349033] (-) TimerEvent: {}
+[95.449384] (-) TimerEvent: {}
+[95.549906] (-) TimerEvent: {}
+[95.650279] (-) TimerEvent: {}
+[95.751739] (-) TimerEvent: {}
+[95.852453] (-) TimerEvent: {}
+[95.952899] (-) TimerEvent: {}
+[96.053215] (-) TimerEvent: {}
+[96.153655] (-) TimerEvent: {}
+[96.255870] (-) TimerEvent: {}
+[96.356313] (-) TimerEvent: {}
+[96.456704] (-) TimerEvent: {}
+[96.557017] (-) TimerEvent: {}
+[96.657398] (-) TimerEvent: {}
+[96.758676] (-) TimerEvent: {}
+[96.859064] (-) TimerEvent: {}
+[96.959508] (-) TimerEvent: {}
+[97.060132] (-) TimerEvent: {}
+[97.160578] (-) TimerEvent: {}
+[97.261041] (-) TimerEvent: {}
+[97.361391] (-) TimerEvent: {}
+[97.461795] (-) TimerEvent: {}
+[97.562139] (-) TimerEvent: {}
+[97.662541] (-) TimerEvent: {}
+[97.762894] (-) TimerEvent: {}
+[97.863349] (-) TimerEvent: {}
+[97.963763] (-) TimerEvent: {}
+[98.064212] (-) TimerEvent: {}
+[98.164674] (-) TimerEvent: {}
+[98.265175] (-) TimerEvent: {}
+[98.365695] (-) TimerEvent: {}
+[98.466133] (-) TimerEvent: {}
+[98.566687] (-) TimerEvent: {}
+[98.667284] (-) TimerEvent: {}
+[98.767749] (-) TimerEvent: {}
+[98.868319] (-) TimerEvent: {}
+[98.968717] (-) TimerEvent: {}
+[99.069068] (-) TimerEvent: {}
+[99.169382] (-) TimerEvent: {}
+[99.269824] (-) TimerEvent: {}
+[99.370397] (-) TimerEvent: {}
+[99.470968] (-) TimerEvent: {}
+[99.572190] (-) TimerEvent: {}
+[99.607157] (project_clearpath) CommandEnded: {'returncode': -2}
+[99.607483] (project_clearpath) JobEnded: {'identifier': 'project_clearpath', 'rc': 'SIGINT'}
+[99.617788] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmyDebris.a CMakeFiles/myDebris.dir/debris_detection.cpp.o
+/usr/bin/ranlib libmyDebris.a

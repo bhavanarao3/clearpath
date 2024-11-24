@@ -1,0 +1,485 @@
+[0.000000] (-) TimerEvent: {}
+[0.000948] (project_clearpath) JobQueued: {'identifier': 'project_clearpath', 'dependencies': OrderedDict()}
+[0.001476] (project_clearpath) JobStarted: {'identifier': 'project_clearpath'}
+[0.014349] (project_clearpath) JobProgress: {'identifier': 'project_clearpath', 'progress': 'cmake'}
+[0.014396] (project_clearpath) Command: {'cmd': ['/usr/bin/cmake', '/home/ana/final/project_clearpath', '-DCMAKE_BUILD_TYPE=Debug', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ana/final/project_clearpath/install/project_clearpath'], 'cwd': '/home/ana/final/project_clearpath/build/project_clearpath', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/final/project_clearpath/build/project_clearpath'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker::/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble')]), 'shell': False}
+[0.100088] (-) TimerEvent: {}
+[0.153382] (project_clearpath) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200463] (-) TimerEvent: {}
+[0.276162] (project_clearpath) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.292548] (project_clearpath) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300986] (-) TimerEvent: {}
+[0.385681] (project_clearpath) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.389376] (project_clearpath) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.390428] (project_clearpath) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.392177] (project_clearpath) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.397764] (project_clearpath) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402365] (-) TimerEvent: {}
+[0.475435] (project_clearpath) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.478596] (project_clearpath) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.478773] (project_clearpath) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.479083] (project_clearpath) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.502658] (-) TimerEvent: {}
+[0.603480] (-) TimerEvent: {}
+[0.705870] (-) TimerEvent: {}
+[0.806669] (-) TimerEvent: {}
+[0.907270] (-) TimerEvent: {}
+[1.008121] (-) TimerEvent: {}
+[1.108681] (-) TimerEvent: {}
+[1.209566] (-) TimerEvent: {}
+[1.310054] (-) TimerEvent: {}
+[1.411476] (-) TimerEvent: {}
+[1.511757] (-) TimerEvent: {}
+[1.532193] (project_clearpath) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.537496] (project_clearpath) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.611971] (-) TimerEvent: {}
+[1.615347] (project_clearpath) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.617608] (project_clearpath) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.679549] (project_clearpath) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.680670] (project_clearpath) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.704484] (project_clearpath) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.712062] (-) TimerEvent: {}
+[1.812599] (-) TimerEvent: {}
+[1.829004] (project_clearpath) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.897036] (project_clearpath) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.912729] (-) TimerEvent: {}
+[1.941263] (project_clearpath) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.001287] (project_clearpath) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.009428] (project_clearpath) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.012826] (-) TimerEvent: {}
+[2.021930] (project_clearpath) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.044590] (project_clearpath) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.074529] (project_clearpath) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.112962] (-) TimerEvent: {}
+[2.116980] (project_clearpath) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.159865] (project_clearpath) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[2.204893] (project_clearpath) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.213211] (-) TimerEvent: {}
+[2.226772] (project_clearpath) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.313374] (-) TimerEvent: {}
+[2.326358] (project_clearpath) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.330590] (project_clearpath) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.413503] (-) TimerEvent: {}
+[2.429391] (project_clearpath) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.453589] (project_clearpath) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.484405] (project_clearpath) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.514117] (-) TimerEvent: {}
+[2.614527] (-) TimerEvent: {}
+[2.640107] (project_clearpath) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.663273] (project_clearpath) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.677838] (project_clearpath) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.680537] (project_clearpath) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.682922] (project_clearpath) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.695271] (project_clearpath) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.12 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[2.714681] (-) TimerEvent: {}
+[2.815762] (-) TimerEvent: {}
+[2.916119] (-) TimerEvent: {}
+[2.949357] (project_clearpath) StdoutLine: {'line': b'-- Found Doxygen: /usr/bin/doxygen (found version "1.9.1") found components: doxygen dot \n'}
+[2.990534] (project_clearpath) StderrLine: {'line': b'\x1b[0mEnabling coverage\x1b[0m\n'}
+[2.995712] (project_clearpath) StdoutLine: {'line': b'-- Performing Test HAVE_fprofile_abs_path\n'}
+[3.017080] (-) TimerEvent: {}
+[3.080215] (project_clearpath) StdoutLine: {'line': b'-- Performing Test HAVE_fprofile_abs_path - Success\n'}
+[3.080362] (project_clearpath) StdoutLine: {'line': b'-- Appending code coverage compiler flags: -g --coverage -fprofile-abs-path\n'}
+[3.095566] (project_clearpath) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.117308] (-) TimerEvent: {}
+[3.218684] (-) TimerEvent: {}
+[3.308142] (project_clearpath) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.309113] (project_clearpath) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.309298] (project_clearpath) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.319001] (-) TimerEvent: {}
+[3.327003] (project_clearpath) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.358638] (project_clearpath) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.375609] (project_clearpath) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.419189] (-) TimerEvent: {}
+[3.504963] (project_clearpath) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.505210] (project_clearpath) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.519455] (-) TimerEvent: {}
+[3.524147] (project_clearpath) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.529385] (project_clearpath) StdoutLine: {'line': b'-- CMAKE_BUILD_TYPE = Debug\n'}
+[3.529553] (project_clearpath) StdoutLine: {'line': b'-- WANT_COVERAGE    = ON\n'}
+[3.530176] (project_clearpath) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.566533] (project_clearpath) StdoutLine: {'line': b'-- Generating done\n'}
+[3.569194] (project_clearpath) StdoutLine: {'line': b'-- Build files have been written to: /home/ana/final/project_clearpath/build/project_clearpath\n'}
+[3.585404] (project_clearpath) CommandEnded: {'returncode': 0}
+[3.586640] (project_clearpath) JobProgress: {'identifier': 'project_clearpath', 'progress': 'build'}
+[3.586712] (project_clearpath) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ana/final/project_clearpath/build/project_clearpath', '--', '-j2', '-l2'], 'cwd': '/home/ana/final/project_clearpath/build/project_clearpath', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/final/project_clearpath/build/project_clearpath'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker::/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble')]), 'shell': False}
+[3.619573] (-) TimerEvent: {}
+[3.635431] (project_clearpath) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.635630] (project_clearpath) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object libs/debris/CMakeFiles/myDebris.dir/debris_detection.cpp.o\x1b[0m\n'}
+[3.720483] (-) TimerEvent: {}
+[3.822475] (-) TimerEvent: {}
+[3.922780] (-) TimerEvent: {}
+[4.030906] (-) TimerEvent: {}
+[4.131219] (-) TimerEvent: {}
+[4.233614] (-) TimerEvent: {}
+[4.334980] (-) TimerEvent: {}
+[4.435333] (-) TimerEvent: {}
+[4.536168] (-) TimerEvent: {}
+[4.639629] (-) TimerEvent: {}
+[4.740041] (-) TimerEvent: {}
+[4.840343] (-) TimerEvent: {}
+[4.942131] (-) TimerEvent: {}
+[5.042429] (-) TimerEvent: {}
+[5.154544] (-) TimerEvent: {}
+[5.259925] (-) TimerEvent: {}
+[5.367620] (-) TimerEvent: {}
+[5.468493] (-) TimerEvent: {}
+[5.568786] (-) TimerEvent: {}
+[5.671485] (-) TimerEvent: {}
+[5.771839] (-) TimerEvent: {}
+[5.872174] (-) TimerEvent: {}
+[5.972479] (-) TimerEvent: {}
+[6.073647] (-) TimerEvent: {}
+[6.178343] (-) TimerEvent: {}
+[6.281012] (-) TimerEvent: {}
+[6.383647] (-) TimerEvent: {}
+[6.485076] (-) TimerEvent: {}
+[6.586553] (-) TimerEvent: {}
+[6.686935] (-) TimerEvent: {}
+[6.788551] (-) TimerEvent: {}
+[6.890771] (-) TimerEvent: {}
+[7.015560] (-) TimerEvent: {}
+[7.118477] (-) TimerEvent: {}
+[7.223491] (-) TimerEvent: {}
+[7.323973] (-) TimerEvent: {}
+[7.427550] (-) TimerEvent: {}
+[7.528278] (-) TimerEvent: {}
+[7.628739] (-) TimerEvent: {}
+[7.729488] (-) TimerEvent: {}
+[7.829774] (-) TimerEvent: {}
+[7.930046] (-) TimerEvent: {}
+[8.031639] (-) TimerEvent: {}
+[8.131935] (-) TimerEvent: {}
+[8.232229] (-) TimerEvent: {}
+[8.332500] (-) TimerEvent: {}
+[8.434476] (-) TimerEvent: {}
+[8.534869] (-) TimerEvent: {}
+[8.635859] (-) TimerEvent: {}
+[8.736580] (-) TimerEvent: {}
+[8.836851] (-) TimerEvent: {}
+[8.937254] (-) TimerEvent: {}
+[9.038738] (-) TimerEvent: {}
+[9.140560] (-) TimerEvent: {}
+[9.241143] (-) TimerEvent: {}
+[9.341498] (-) TimerEvent: {}
+[9.442604] (-) TimerEvent: {}
+[9.542885] (-) TimerEvent: {}
+[9.643171] (-) TimerEvent: {}
+[9.744619] (-) TimerEvent: {}
+[9.844948] (-) TimerEvent: {}
+[9.945250] (-) TimerEvent: {}
+[9.980805] (project_clearpath) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgtest.a\x1b[0m\n'}
+[10.048493] (-) TimerEvent: {}
+[10.068858] (project_clearpath) StdoutLine: {'line': b'[ 21%] Built target gtest\n'}
+[10.096211] (project_clearpath) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[10.152587] (-) TimerEvent: {}
+[10.252870] (-) TimerEvent: {}
+[10.353162] (-) TimerEvent: {}
+[10.453557] (-) TimerEvent: {}
+[10.559476] (-) TimerEvent: {}
+[10.659763] (-) TimerEvent: {}
+[10.760074] (-) TimerEvent: {}
+[10.860524] (-) TimerEvent: {}
+[10.960833] (-) TimerEvent: {}
+[11.061134] (-) TimerEvent: {}
+[11.163575] (-) TimerEvent: {}
+[11.263881] (-) TimerEvent: {}
+[11.364990] (-) TimerEvent: {}
+[11.469482] (-) TimerEvent: {}
+[11.569744] (-) TimerEvent: {}
+[11.672496] (-) TimerEvent: {}
+[11.772788] (-) TimerEvent: {}
+[11.884768] (-) TimerEvent: {}
+[11.989572] (-) TimerEvent: {}
+[12.055206] (project_clearpath) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgmock.a\x1b[0m\n'}
+[12.089677] (-) TimerEvent: {}
+[12.115542] (project_clearpath) StdoutLine: {'line': b'[ 35%] Built target gmock\n'}
+[12.138638] (project_clearpath) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[12.190026] (-) TimerEvent: {}
+[12.292956] (-) TimerEvent: {}
+[12.393382] (-) TimerEvent: {}
+[12.496494] (-) TimerEvent: {}
+[12.596769] (-) TimerEvent: {}
+[12.697052] (-) TimerEvent: {}
+[12.799497] (-) TimerEvent: {}
+[12.901641] (-) TimerEvent: {}
+[13.002133] (-) TimerEvent: {}
+[13.105486] (-) TimerEvent: {}
+[13.206182] (-) TimerEvent: {}
+[13.273321] (project_clearpath) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgtest_main.a\x1b[0m\n'}
+[13.306298] (-) TimerEvent: {}
+[13.343502] (project_clearpath) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[13.392857] (project_clearpath) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[13.406568] (-) TimerEvent: {}
+[13.509486] (-) TimerEvent: {}
+[13.609879] (-) TimerEvent: {}
+[13.710230] (-) TimerEvent: {}
+[13.810945] (-) TimerEvent: {}
+[13.911325] (-) TimerEvent: {}
+[14.012637] (-) TimerEvent: {}
+[14.113033] (-) TimerEvent: {}
+[14.178340] (project_clearpath) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX static library ../../../lib/libgmock_main.a\x1b[0m\n'}
+[14.209525] (project_clearpath) StdoutLine: {'line': b'[ 64%] Built target gmock_main\n'}
+[14.213387] (-) TimerEvent: {}
+[14.313740] (-) TimerEvent: {}
+[14.414243] (-) TimerEvent: {}
+[14.528227] (-) TimerEvent: {}
+[14.628618] (-) TimerEvent: {}
+[14.730339] (-) TimerEvent: {}
+[14.830740] (-) TimerEvent: {}
+[14.931128] (-) TimerEvent: {}
+[15.031442] (-) TimerEvent: {}
+[15.131815] (-) TimerEvent: {}
+[15.232784] (-) TimerEvent: {}
+[15.333471] (-) TimerEvent: {}
+[15.433899] (-) TimerEvent: {}
+[15.534186] (-) TimerEvent: {}
+[15.634500] (-) TimerEvent: {}
+[15.734833] (-) TimerEvent: {}
+[15.835230] (-) TimerEvent: {}
+[15.935637] (-) TimerEvent: {}
+[16.036008] (-) TimerEvent: {}
+[16.136392] (-) TimerEvent: {}
+[16.237007] (-) TimerEvent: {}
+[16.339333] (-) TimerEvent: {}
+[16.439699] (-) TimerEvent: {}
+[16.540031] (-) TimerEvent: {}
+[16.640389] (-) TimerEvent: {}
+[16.741401] (-) TimerEvent: {}
+[16.842688] (-) TimerEvent: {}
+[16.943462] (-) TimerEvent: {}
+[17.044664] (-) TimerEvent: {}
+[17.146206] (-) TimerEvent: {}
+[17.246794] (-) TimerEvent: {}
+[17.347294] (-) TimerEvent: {}
+[17.447662] (-) TimerEvent: {}
+[17.548066] (-) TimerEvent: {}
+[17.648550] (-) TimerEvent: {}
+[17.749130] (-) TimerEvent: {}
+[17.849596] (-) TimerEvent: {}
+[17.951513] (-) TimerEvent: {}
+[18.052591] (-) TimerEvent: {}
+[18.152895] (-) TimerEvent: {}
+[18.253312] (-) TimerEvent: {}
+[18.353759] (-) TimerEvent: {}
+[18.454512] (-) TimerEvent: {}
+[18.554963] (-) TimerEvent: {}
+[18.658819] (-) TimerEvent: {}
+[18.762062] (-) TimerEvent: {}
+[18.862334] (-) TimerEvent: {}
+[18.963246] (-) TimerEvent: {}
+[19.063617] (-) TimerEvent: {}
+[19.164156] (-) TimerEvent: {}
+[19.264627] (-) TimerEvent: {}
+[19.365344] (-) TimerEvent: {}
+[19.465762] (-) TimerEvent: {}
+[19.566127] (-) TimerEvent: {}
+[19.666646] (-) TimerEvent: {}
+[19.767041] (-) TimerEvent: {}
+[19.867495] (-) TimerEvent: {}
+[19.970915] (-) TimerEvent: {}
+[20.071524] (-) TimerEvent: {}
+[20.172835] (-) TimerEvent: {}
+[20.273504] (-) TimerEvent: {}
+[20.373943] (-) TimerEvent: {}
+[20.475477] (-) TimerEvent: {}
+[20.575777] (-) TimerEvent: {}
+[20.676061] (-) TimerEvent: {}
+[20.776401] (-) TimerEvent: {}
+[20.878691] (-) TimerEvent: {}
+[20.979253] (-) TimerEvent: {}
+[21.079585] (-) TimerEvent: {}
+[21.180083] (-) TimerEvent: {}
+[21.281850] (-) TimerEvent: {}
+[21.382659] (-) TimerEvent: {}
+[21.484096] (-) TimerEvent: {}
+[21.584409] (-) TimerEvent: {}
+[21.619408] (project_clearpath) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libmyDebris.a\x1b[0m\n'}
+[21.685480] (-) TimerEvent: {}
+[21.785845] (-) TimerEvent: {}
+[21.887718] (-) TimerEvent: {}
+[21.903996] (project_clearpath) StdoutLine: {'line': b'[ 71%] Built target myDebris\n'}
+[21.931536] (project_clearpath) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object test/CMakeFiles/cpp-test.dir/test.cpp.o\x1b[0m\n'}
+[21.937298] (project_clearpath) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object app/CMakeFiles/collector_node.dir/main.cpp.o\x1b[0m\n'}
+[21.988479] (-) TimerEvent: {}
+[22.088770] (-) TimerEvent: {}
+[22.189058] (-) TimerEvent: {}
+[22.290642] (-) TimerEvent: {}
+[22.391031] (-) TimerEvent: {}
+[22.491458] (-) TimerEvent: {}
+[22.591863] (-) TimerEvent: {}
+[22.692593] (-) TimerEvent: {}
+[22.792972] (-) TimerEvent: {}
+[22.894665] (-) TimerEvent: {}
+[22.995054] (-) TimerEvent: {}
+[23.095513] (-) TimerEvent: {}
+[23.195862] (-) TimerEvent: {}
+[23.298005] (-) TimerEvent: {}
+[23.400747] (-) TimerEvent: {}
+[23.501128] (-) TimerEvent: {}
+[23.601701] (-) TimerEvent: {}
+[23.702288] (-) TimerEvent: {}
+[23.802755] (-) TimerEvent: {}
+[23.903154] (-) TimerEvent: {}
+[24.003592] (-) TimerEvent: {}
+[24.104679] (-) TimerEvent: {}
+[24.205066] (-) TimerEvent: {}
+[24.307660] (-) TimerEvent: {}
+[24.408077] (-) TimerEvent: {}
+[24.508778] (-) TimerEvent: {}
+[24.609210] (-) TimerEvent: {}
+[24.709709] (-) TimerEvent: {}
+[24.810390] (-) TimerEvent: {}
+[24.911779] (-) TimerEvent: {}
+[25.015003] (-) TimerEvent: {}
+[25.115448] (-) TimerEvent: {}
+[25.215900] (-) TimerEvent: {}
+[25.316399] (-) TimerEvent: {}
+[25.416992] (-) TimerEvent: {}
+[25.518752] (-) TimerEvent: {}
+[25.619167] (-) TimerEvent: {}
+[25.720660] (-) TimerEvent: {}
+[25.821053] (-) TimerEvent: {}
+[25.921438] (-) TimerEvent: {}
+[26.023483] (-) TimerEvent: {}
+[26.123847] (-) TimerEvent: {}
+[26.224210] (-) TimerEvent: {}
+[26.324567] (-) TimerEvent: {}
+[26.424855] (-) TimerEvent: {}
+[26.532481] (-) TimerEvent: {}
+[26.632859] (-) TimerEvent: {}
+[26.733306] (-) TimerEvent: {}
+[26.833741] (-) TimerEvent: {}
+[26.934118] (-) TimerEvent: {}
+[27.034488] (-) TimerEvent: {}
+[27.136177] (-) TimerEvent: {}
+[27.236599] (-) TimerEvent: {}
+[27.337123] (-) TimerEvent: {}
+[27.437620] (-) TimerEvent: {}
+[27.538029] (-) TimerEvent: {}
+[27.638380] (-) TimerEvent: {}
+[27.680155] (project_clearpath) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable collector_node\x1b[0m\n'}
+[27.743484] (-) TimerEvent: {}
+[27.843834] (-) TimerEvent: {}
+[27.944272] (-) TimerEvent: {}
+[28.044856] (-) TimerEvent: {}
+[28.145265] (-) TimerEvent: {}
+[28.247693] (-) TimerEvent: {}
+[28.348159] (-) TimerEvent: {}
+[28.448694] (-) TimerEvent: {}
+[28.549105] (-) TimerEvent: {}
+[28.636349] (project_clearpath) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp-test\x1b[0m\n'}
+[28.649205] (-) TimerEvent: {}
+[28.750490] (-) TimerEvent: {}
+[28.850861] (-) TimerEvent: {}
+[28.951236] (-) TimerEvent: {}
+[29.052104] (-) TimerEvent: {}
+[29.058830] (project_clearpath) StdoutLine: {'line': b'[100%] Built target collector_node\n'}
+[29.152544] (-) TimerEvent: {}
+[29.252987] (-) TimerEvent: {}
+[29.353457] (-) TimerEvent: {}
+[29.453908] (-) TimerEvent: {}
+[29.554525] (-) TimerEvent: {}
+[29.656450] (-) TimerEvent: {}
+[29.756828] (-) TimerEvent: {}
+[29.844585] (project_clearpath) StdoutLine: {'line': b'[100%] Built target cpp-test\n'}
+[29.856032] (project_clearpath) CommandEnded: {'returncode': 0}
+[29.857012] (-) TimerEvent: {}
+[29.892753] (project_clearpath) JobProgress: {'identifier': 'project_clearpath', 'progress': 'install'}
+[29.900832] (project_clearpath) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ana/final/project_clearpath/build/project_clearpath'], 'cwd': '/home/ana/final/project_clearpath/build/project_clearpath', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/final/project_clearpath/build/project_clearpath'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker::/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble')]), 'shell': False}
+[29.909030] (project_clearpath) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[29.909238] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include\n'}
+[29.909464] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock\n'}
+[29.909621] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-matchers.h\n'}
+[29.909830] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal\n'}
+[29.909974] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom\n'}
+[29.910091] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/README.md\n'}
+[29.910228] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-matchers.h\n'}
+[29.910361] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-generated-actions.h\n'}
+[29.910685] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/custom/gmock-port.h\n'}
+[29.910917] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-internal-utils.h\n'}
+[29.911073] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-port.h\n'}
+[29.911276] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/internal/gmock-pp.h\n'}
+[29.911335] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-function-mocker.h\n'}
+[29.911609] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-nice-strict.h\n'}
+[29.911684] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-matchers.h\n'}
+[29.911994] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-actions.h\n'}
+[29.912183] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock.h\n'}
+[29.912411] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-cardinalities.h\n'}
+[29.912616] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-spec-builders.h\n'}
+[29.912683] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gmock/gmock-more-actions.h\n'}
+[29.912928] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgmock.a\n'}
+[29.915240] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgmock_main.a\n'}
+[29.915325] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gmock.pc\n'}
+[29.915526] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gmock_main.pc\n'}
+[29.916684] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake\n'}
+[29.916811] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake\n'}
+[29.917101] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake\n'}
+[29.917170] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake\n'}
+[29.917314] (project_clearpath) StdoutLine: {'line': b'-- Up-to-date: /home/ana/final/project_clearpath/install/project_clearpath/include\n'}
+[29.917585] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest\n'}
+[29.917674] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-test-part.h\n'}
+[29.917819] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal\n'}
+[29.917936] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-type-util.h\n'}
+[29.918064] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom\n'}
+[29.918172] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-printers.h\n'}
+[29.918296] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest-port.h\n'}
+[29.918411] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/README.md\n'}
+[29.920512] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/custom/gtest.h\n'}
+[29.920583] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-param-util.h\n'}
+[29.920620] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-death-test-internal.h\n'}
+[29.920653] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-string.h\n'}
+[29.920684] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-internal.h\n'}
+[29.920715] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port.h\n'}
+[29.920749] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-filepath.h\n'}
+[29.920780] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/internal/gtest-port-arch.h\n'}
+[29.920813] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-printers.h\n'}
+[29.920843] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-spi.h\n'}
+[29.920875] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-matchers.h\n'}
+[29.921347] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_prod.h\n'}
+[29.921402] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-param-test.h\n'}
+[29.921449] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-death-test.h\n'}
+[29.921482] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest.h\n'}
+[29.921534] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest_pred_impl.h\n'}
+[29.921665] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-message.h\n'}
+[29.921789] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-assertion-result.h\n'}
+[29.921911] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/include/gtest/gtest-typed-test.h\n'}
+[29.922118] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgtest.a\n'}
+[29.927988] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/libgtest_main.a\n'}
+[29.928499] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gtest.pc\n'}
+[29.929051] (project_clearpath) StdoutLine: {'line': b'-- Installing: /home/ana/final/project_clearpath/install/project_clearpath/lib/pkgconfig/gtest_main.pc\n'}
+[29.929145] (project_clearpath) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.929521] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/lib/project_clearpath/collector_node\n'}
+[29.938091] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//launch/collector_robot.launch.py\n'}
+[29.945963] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//launch/spawn_tbot3_custom.py\n'}
+[29.953742] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//launch/spawn_trash.launch.py\n'}
+[29.958559] (-) TimerEvent: {}
+[29.961764] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/trash_block/model.sdf\n'}
+[29.969802] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[29.977246] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/turtlebot3_waffle_pi/model.config\n'}
+[29.987136] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//models/turtlebot3_waffle_pi/model.sdf\n'}
+[29.997608] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//worlds/empty_world.world\n'}
+[30.005610] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//worlds/gazebo_ros_depth_camera_demo.world\n'}
+[30.012711] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//worlds/sample.world\n'}
+[30.022436] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//urdf/common_properties.urdf\n'}
+[30.029224] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath//urdf/turtlebot3_waffle_pi.urdf\n'}
+[30.036543] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/ament_index/resource_index/package_run_dependencies/project_clearpath\n'}
+[30.042908] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/ament_index/resource_index/parent_prefix_path/project_clearpath\n'}
+[30.049663] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/ament_prefix_path.sh\n'}
+[30.056672] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/ament_prefix_path.dsv\n'}
+[30.058656] (-) TimerEvent: {}
+[30.064792] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/path.sh\n'}
+[30.071897] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/environment/path.dsv\n'}
+[30.078543] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.bash\n'}
+[30.085068] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.sh\n'}
+[30.091971] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.zsh\n'}
+[30.102071] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/local_setup.dsv\n'}
+[30.109585] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/package.dsv\n'}
+[30.117362] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/ament_index/resource_index/packages/project_clearpath\n'}
+[30.124247] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig.cmake\n'}
+[30.131347] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig-version.cmake\n'}
+[30.138004] (project_clearpath) StdoutLine: {'line': b'-- Symlinking: /home/ana/final/project_clearpath/install/project_clearpath/share/project_clearpath/package.xml\n'}
+[30.148824] (project_clearpath) CommandEnded: {'returncode': 0}
+[30.158738] (-) TimerEvent: {}
+[30.207612] (project_clearpath) JobEnded: {'identifier': 'project_clearpath', 'rc': 0}
+[30.208231] (-) EventReactorShutdown: {}

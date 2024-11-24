@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="project_clearpath.xmllint"
+  tests="8"
+  errors="0"
+  failures="0"
+  time="0.466"
+>
+  <testcase
+    name="package.xml"
+    classname="project_clearpath.xmllint"/>
+  <testcase
+    name="build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml"
+    classname="project_clearpath.xmllint"/>
+  <testcase
+    name="build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml"
+    classname="project_clearpath.xmllint"/>
+  <testcase
+    name="build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml"
+    classname="project_clearpath.xmllint"/>
+  <testcase
+    name="build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml"
+    classname="project_clearpath.xmllint"/>
+  <testcase
+    name="build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml"
+    classname="project_clearpath.xmllint"/>
+  <testcase
+    name="build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml"
+    classname="project_clearpath.xmllint"/>
+  <testcase
+    name="install/project_clearpath/share/project_clearpath/package.xml"
+    classname="project_clearpath.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* build/project_clearpath/test_results/project_clearpath/cppcheck.xunit.xml
+* build/project_clearpath/test_results/project_clearpath/flake8.xunit.xml
+* build/project_clearpath/test_results/project_clearpath/lint_cmake.xunit.xml
+* build/project_clearpath/test_results/project_clearpath/pep257.xunit.xml
+* build/project_clearpath/test_results/project_clearpath/uncrustify.xunit.xml
+* build/project_clearpath/test_results/project_clearpath/xmllint.xunit.xml
+* install/project_clearpath/share/project_clearpath/package.xml</system-out>
+</testsuite>

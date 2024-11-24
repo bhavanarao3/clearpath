@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="project_clearpath.lint_cmake"
+  tests="320"
+  errors="0"
+  failures="300"
+  time="0.053"
+>
+  <testcase
+    name="readability/wonkycase (CMakeLists.txt:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Do not use mixed case commands"/>
+  </testcase>
+  <testcase
+    name="readability/wonkycase (CMakeLists.txt:21)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Do not use mixed case commands"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (CMakeLists.txt:58)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:105)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (CMakeLists.txt:132)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (CMakeLists.txt:141)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'setup_target_for_coverage_lcov' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (CMakeLists.txt:141)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (CMakeLists.txt:144)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (CMakeLists.txt:153)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'setup_target_for_coverage_gcovr_html' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (CMakeLists.txt:153)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (CMakeLists.txt:156)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:156)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (app/CMakeLists.txt:2)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (app/CMakeLists.txt:18)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (app/CMakeLists.txt:18)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:30)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:31)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:31)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:32)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:32)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:33)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:33)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:34)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:34)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:35)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:35)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:36)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:36)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:37)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:37)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:38)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:38)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:39)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:39)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:40)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:268)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:269)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:269)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:270)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:270)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:271)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:271)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:272)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:272)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:273)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:273)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:274)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:274)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:275)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:275)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:276)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:276)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:277)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:277)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:278)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:278)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:279)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:279)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:280)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:280)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:281)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:281)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:282)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:282)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:283)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:283)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:284)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:284)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:285)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:285)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:286)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:286)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:287)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:287)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:288)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:288)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:289)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:289)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:290)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:290)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:291)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:291)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:292)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:292)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:293)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:293)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:294)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:294)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:295)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:295)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:296)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:296)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:297)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:297)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:298)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:298)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:299)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:299)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:300)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:300)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:301)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:301)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:302)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:302)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:303)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:303)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:304)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:304)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:305)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:305)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:306)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:306)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:307)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:307)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:308)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:308)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:309)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:309)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:310)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:310)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:311)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CMakeDoxygenDefaults.cmake:311)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/CMakeDoxygenDefaults.cmake:312)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/CTestCustom.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CTestTestfile.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CTestTestfile.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/CTestTestfile.cmake:5)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:7)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:8)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:9)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:11)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:12)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:13)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:16)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:17)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CTestTestfile.cmake:18)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/cmake_install.cmake:13)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/cmake_install.cmake:76)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/cmake_install.cmake:78)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/Makefile.cmake:8)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/Makefile.cmake:1087)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/Makefile.cmake:1093)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/Makefile.cmake:1138)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/CMakeFiles/cmake_directory_clean.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="linelength (build/project_clearpath/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'foreach' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/CMakeFiles/3.22.1/CMakeSystem.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/app_coverage.dir/cmake_clean.cmake:7)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/docs.dir/cmake_clean.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/cmake_clean.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/test_coverage.dir/cmake_clean.cmake:11)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/CMakeFiles/uninstall.dir/cmake_clean.cmake:3)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_core/package.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/ament_cmake_core/package.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/ament_cmake_core/package.cmake:7)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_core/package.cmake:8)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/ament_cmake_core/package.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/ament_cmake_core/package.cmake:11)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/ament_cmake_core/project_clearpathConfig-version.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="build/project_clearpath/ament_cmake_core/project_clearpathConfig.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:2)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:5)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:8)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:9)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:11)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:12)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:13)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_package_templates/templates.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:334)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:337)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:340)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:343)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:346)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:349)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:352)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="linelength (build/project_clearpath/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake:60)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/app/CTestTestfile.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/app/CTestTestfile.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/app/CTestTestfile.cmake:5)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/app/ament_cmake_symlink_install_targets_0_Debug.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/app/cmake_install.cmake:13)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/app/CMakeFiles/collector_node.dir/cmake_clean.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/libs/CTestTestfile.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/libs/CTestTestfile.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/libs/CTestTestfile.cmake:5)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/libs/cmake_install.cmake:13)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/libs/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/libs/debris/CTestTestfile.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/libs/debris/CTestTestfile.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/libs/debris/CTestTestfile.cmake:5)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/libs/debris/cmake_install.cmake:13)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/libs/debris/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/cmake_clean.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/cmake_clean_target.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/test/CTestTestfile.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/test/CTestTestfile.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/project_clearpath/test/CTestTestfile.cmake:5)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/project_clearpath/test/cmake_install.cmake:13)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/test/cpp-test[1]_include.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:1)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:2)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:3)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:5)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:7)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:8)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/project_clearpath/test/cpp-test[1]_tests.cmake:9)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/test/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:6)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/project_clearpath/test/CMakeFiles/cpp-test.dir/cmake_clean.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="linelength (cmake-modules/CodeCoverage.cmake:84)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (cmake-modules/CodeCoverage.cmake:165)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (cmake-modules/CodeCoverage.cmake:180)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (cmake-modules/CodeCoverage.cmake:184)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (cmake-modules/CodeCoverage.cmake:188)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (cmake-modules/CodeCoverage.cmake:192)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (cmake-modules/CodeCoverage.cmake:196)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (cmake-modules/CodeCoverage.cmake:200)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (cmake-modules/CodeCoverage.cmake:521)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (cmake-modules/CodeCoverage.cmake:551)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (cmake-modules/CodeCoverage.cmake:551)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (cmake-modules/CodeCoverage.cmake:714)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (cmake-modules/CodeCoverage.cmake:715)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (cmake-modules/CodeCoverage.cmake:716)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake:27)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake:28)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:12)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:14)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="readability/mixedcase (install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Do not mix upper and lower case commands"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'OR' and its ()"/>
+  </testcase>
+  <testcase
+    name="readability/mixedcase (install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:16)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Do not mix upper and lower case commands"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake:16)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Extra spaces between 'OR' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:15)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:16)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:20)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:25)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:26)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:30)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:35)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:36)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:40)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:45)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake:46)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:4)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:37)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:108)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:109)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:110)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:112)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake:117)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig-version.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig.cmake"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="libs/CMakeLists.txt"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="libs/debris/CMakeLists.txt"
+    classname="project_clearpath.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (test/CMakeLists.txt:2)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (test/CMakeLists.txt:10)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (test/CMakeLists.txt:16)"
+    classname="project_clearpath.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <system-out>Checked files:
+* CMakeLists.txt
+* app/CMakeLists.txt
+* build/project_clearpath/CMakeDoxygenDefaults.cmake
+* build/project_clearpath/CTestCustom.cmake
+* build/project_clearpath/CTestTestfile.cmake
+* build/project_clearpath/cmake_install.cmake
+* build/project_clearpath/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/project_clearpath/CMakeFiles/Makefile.cmake
+* build/project_clearpath/CMakeFiles/cmake_directory_clean.cmake
+* build/project_clearpath/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+* build/project_clearpath/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+* build/project_clearpath/CMakeFiles/3.22.1/CMakeSystem.cmake
+* build/project_clearpath/CMakeFiles/app_coverage.dir/DependInfo.cmake
+* build/project_clearpath/CMakeFiles/app_coverage.dir/cmake_clean.cmake
+* build/project_clearpath/CMakeFiles/docs.dir/DependInfo.cmake
+* build/project_clearpath/CMakeFiles/docs.dir/cmake_clean.cmake
+* build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/DependInfo.cmake
+* build/project_clearpath/CMakeFiles/project_clearpath_uninstall.dir/cmake_clean.cmake
+* build/project_clearpath/CMakeFiles/test_coverage.dir/DependInfo.cmake
+* build/project_clearpath/CMakeFiles/test_coverage.dir/cmake_clean.cmake
+* build/project_clearpath/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/project_clearpath/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/project_clearpath/ament_cmake_core/package.cmake
+* build/project_clearpath/ament_cmake_core/project_clearpathConfig-version.cmake
+* build/project_clearpath/ament_cmake_core/project_clearpathConfig.cmake
+* build/project_clearpath/ament_cmake_package_templates/templates.cmake
+* build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake
+* build/project_clearpath/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake
+* build/project_clearpath/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* build/project_clearpath/app/CTestTestfile.cmake
+* build/project_clearpath/app/ament_cmake_symlink_install_targets_0_Debug.cmake
+* build/project_clearpath/app/cmake_install.cmake
+* build/project_clearpath/app/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/project_clearpath/app/CMakeFiles/collector_node.dir/DependInfo.cmake
+* build/project_clearpath/app/CMakeFiles/collector_node.dir/cmake_clean.cmake
+* build/project_clearpath/libs/CTestTestfile.cmake
+* build/project_clearpath/libs/cmake_install.cmake
+* build/project_clearpath/libs/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/project_clearpath/libs/debris/CTestTestfile.cmake
+* build/project_clearpath/libs/debris/cmake_install.cmake
+* build/project_clearpath/libs/debris/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/DependInfo.cmake
+* build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/cmake_clean.cmake
+* build/project_clearpath/libs/debris/CMakeFiles/myDebris.dir/cmake_clean_target.cmake
+* build/project_clearpath/test/CTestTestfile.cmake
+* build/project_clearpath/test/cmake_install.cmake
+* build/project_clearpath/test/cpp-test[1]_include.cmake
+* build/project_clearpath/test/cpp-test[1]_tests.cmake
+* build/project_clearpath/test/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/project_clearpath/test/CMakeFiles/cpp-test.dir/DependInfo.cmake
+* build/project_clearpath/test/CMakeFiles/cpp-test.dir/cmake_clean.cmake
+* cmake-modules/CodeCoverage.cmake
+* install/project_clearpath/lib/cmake/GTest/GTestConfig.cmake
+* install/project_clearpath/lib/cmake/GTest/GTestConfigVersion.cmake
+* install/project_clearpath/lib/cmake/GTest/GTestTargets-debug.cmake
+* install/project_clearpath/lib/cmake/GTest/GTestTargets.cmake
+* install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig-version.cmake
+* install/project_clearpath/share/project_clearpath/cmake/project_clearpathConfig.cmake
+* libs/CMakeLists.txt
+* libs/debris/CMakeLists.txt
+* test/CMakeLists.txt</system-out>
+</testsuite>
