@@ -31,6 +31,10 @@ jobs:
           sudo apt update
           sudo apt install -y doxygen lcov gcovr ros-humble-ament-cmake
 
+      - name: Set ament_cmake path
+        run: |
+          echo "CMAKE_PREFIX_PATH=/opt/ros/humble" >> $GITHUB_ENV
+
       - name: Source ROS 2 environment
         run: |
           source /opt/ros/humble/setup.bash
