@@ -17,13 +17,16 @@ cd ~/ros2_ws
 # Set gazebo_msgs_DIR if needed
 export gazebo_msgs_DIR=/opt/ros/humble/share/gazebo_msgs/cmake
 
-# Build the project with coverage flags
-colcon build --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--coverage" -DCMAKE_BUILD_TYPE=Debug
+# Clean up any previous builds
+rm -rf install log build
+
+# Build the project with coverage flags using merged layout
+colcon build --merge-install --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--coverage" -DCMAKE_BUILD_TYPE=Debug
 
 # Source the workspace
 source install/setup.bash
 
-# Run the tests 
+# Run the tests
 colcon test --merge-install
 
 # Generate coverage report
