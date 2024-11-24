@@ -24,7 +24,7 @@ colcon build --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--cove
 source install/setup.bash
 
 # Run the tests 
-colcon test 
+colcon test --merge-install
 
 # Generate coverage report
 lcov --capture --directory build --output-file coverage.info
