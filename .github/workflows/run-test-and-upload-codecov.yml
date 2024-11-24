@@ -41,6 +41,6 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-          files: ~/ros2_ws/coverage_filtered.info
+          files: /github/home/ros2_ws/coverage_filtered.info 
           fail_ci_if_error: true # optional (default = false)
           verbose: true # optional (default = false)      
