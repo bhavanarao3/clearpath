@@ -32,6 +32,7 @@ jobs:
       # Run all unit test, integration test, and generate combined coverage report
       - name: Build, run unit test, and generate coverage report
         run: |
+          sudo chmod +x do-tests.bash
           ./do-tests.bash
 
       # Upload coverage result to CodeCov
