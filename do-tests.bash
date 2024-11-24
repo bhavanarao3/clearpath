@@ -9,7 +9,7 @@ source /opt/ros/humble/setup.bash
 mkdir -p ~/ros2_ws/src
 
 # Copy the project files to the workspace
-cp -r . ~/ros2_ws/src/project
+cp -r . ~/ros2_ws/src/project_clearpath
 
 # Change to the workspace directory
 cd ~/ros2_ws
@@ -23,8 +23,8 @@ colcon build --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE_C_FLAGS="--cove
 # Source the workspace
 source install/setup.bash
 
-# Run the tests
-colcon test
+# Run the tests without rebuilding
+colcon test --no-build
 
 # Generate coverage report
 lcov --capture --directory build --output-file coverage.info
@@ -33,6 +33,10 @@ genhtml coverage_filtered.info --output-directory coverage_report
 
 # Copy the coverage info file to the GitHub workspace
 cp coverage_filtered.info $GITHUB_WORKSPACE/build/test_coverage.info
+
+# Upload the coverage report to Codecov
+curl -s https://codecov.io/bash > codecov.sh
+bash codecov.sh -f coverage_filtered.info
 
 # Print the coverage report
 lcov --list coverage_filtered.info
