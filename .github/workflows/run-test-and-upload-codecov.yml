@@ -29,7 +29,11 @@ jobs:
         run: |
           # Install system dependencies
           sudo apt update
-          sudo apt install -y doxygen lcov gcovr
+          sudo apt install -y doxygen lcov gcovr ros-humble-ament-cmake
+
+      - name: Source ROS 2 environment
+        run: |
+          source /opt/ros/humble/setup.bash
 
       # Step 3: Build and run unit tests, generate coverage report
       - name: Build, run unit tests, and generate coverage report
