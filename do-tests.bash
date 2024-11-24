@@ -26,13 +26,17 @@ colcon build --merge-install --cmake-args -DCMAKE_CXX_FLAGS="--coverage" -DCMAKE
 # Source the workspace
 source install/setup.bash
 
-# Run the tests
-colcon test --merge-install
+# Run the tests and generate coverage report only if build was successful
+if [ $? -eq 0 ]; then
+    colcon test --merge-install
 
-# Generate coverage report
-lcov --capture --directory build --output-file coverage.info
-lcov --remove coverage.info '/opt/*' '/usr/*' '*/test/*' --output-file coverage_filtered.info
-genhtml coverage_filtered.info --output-directory coverage_report
+    # Generate coverage report
+    lcov --capture --directory build --output-file coverage.info
+    lcov --remove coverage.info '/opt/*' '/usr/*' '*/test/*' --output-file coverage_filtered.info
+    genhtml coverage_filtered.info --output-directory coverage_report
 
-# Copy the coverage info file to the GitHub workspace
-cp coverage_filtered.info $GITHUB_WORKSPACE/build/test_coverage.info
+    # Copy the coverage info file to the GitHub workspace
+    cp coverage_filtered.info $GITHUB_WORKSPACE/build/test_coverage.info
+else
+    echo "Build failed, skipping tests and coverage report generation."
+fi
