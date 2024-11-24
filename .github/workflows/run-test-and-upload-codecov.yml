@@ -15,9 +15,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up ROS 2 (using the latest stable version)
+      # Step 2: Set up ROS 2
       - name: Set up ROS 2
-        uses: ros-tooling/setup-ros@v0.1.0  # Use the stable version v0.1.0
+        uses: ros-tooling/setup-ros@v3.0  # Updated to a working version of ros-tooling
         with:
           ros-distro: humble
 
