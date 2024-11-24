@@ -28,9 +28,16 @@ source install/setup.bash
 
 # Run the tests and generate coverage report only if build was successful
 if [ $? -eq 0 ]; then
+    # Run tests and capture the return code
     colcon test --event-handlers console_direct+
+    TEST_RESULT=$?
 
-    # Generate coverage report
+    if [ $TEST_RESULT -ne 0 ]; then
+        echo "Tests failed, stopping execution."
+        exit 1
+    fi
+
+    # Generate coverage report if tests pass
     lcov --capture --directory build --output-file coverage.info
     lcov --remove coverage.info '/opt/*' '/usr/*' '*/test/*' --output-file coverage_filtered.info
     genhtml coverage_filtered.info --output-directory coverage_report
@@ -39,4 +46,5 @@ if [ $? -eq 0 ]; then
     cp coverage_filtered.info $GITHUB_WORKSPACE/build/test_coverage.info
 else
     echo "Build failed, skipping tests and coverage report generation."
+    exit 1
 fi
