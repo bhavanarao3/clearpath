@@ -27,13 +27,6 @@ jobs:
       # Step 2: Install dependencies and fix empy installation
       - name: Install system dependencies and fix empy issue
         run: |
-          # Remove conflicting 'em' package
-          sudo rm /usr/local/bin/em.py || true
-          sudo rm -rf /usr/local/lib/python3.10/dist-packages/em || true
-          
-          # Install required version of empy
-          pip install empy==3.3.4
-
           # Install system dependencies
           sudo apt update
           sudo apt install -y doxygen lcov gcovr
