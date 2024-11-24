@@ -65,33 +65,48 @@
 set -xue -o pipefail
 
 ##############################
-# 0. start from scratch
+# 0. Setup the workspace
 ##############################
+# Clean the workspace
 rm -rf build/ install/
-set +u                          # stop checking undefined variable  
+set +u                          # Stop checking undefined variable  
 source /opt/ros/humble/setup.bash
+# Initialize rosdep if not already done
 # sudo rosdep init
 rosdep update
+
+# Ensure gazebo_ros_pkgs is installed for gazebo_msgs
+if ! dpkg -s ros-humble-gazebo-ros-pkgs &>/dev/null; then
+  echo "Installing gazebo_ros_pkgs for gazebo_msgs..."
+  sudo apt update
+  sudo apt install -y ros-humble-gazebo-ros-pkgs
+fi
+
+# Set the CMAKE_PREFIX_PATH if required
+export CMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH:/opt/ros/humble/share
+
+# Install dependencies from src (commented out if not needed)
 # rosdep install --from-paths src --ignore-src -r -y
-set -u                          # re-enable undefined variable check
+set -u                          # Re-enable undefined variable check
 
 ##############################
 # 1. Build for test coverage
 ##############################
 colcon build --cmake-args -DCOVERAGE=1
-set +u                          # stop checking undefined variable  
+set +u                          # Stop checking undefined variable  
 source install/setup.bash
-set -u                          # re-enable undefined variable check
+set -u                          # Re-enable undefined variable check
 
 ##############################
-# 2. run all tests
+# 2. Run all tests
 ##############################
 colcon test
 
 ##############################
-# 3. get return status  (none-zero will cause the script to exit)
+# 3. Get return status  (none-zero will cause the script to exit)
 ##############################
 colcon test-result --test-result-base build/clearpath
+
 
 ##############################
 # 4. generate individual coverage reports:
