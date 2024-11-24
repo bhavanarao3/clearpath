@@ -2,10 +2,9 @@ name: CI Workflow
 
 on:
   push:
-    branches: ["main", "object_detection_navigation"] 
+    branches: ["main", "object_detection_navigation"]
   pull_request:
-    branches: ["main", "object_detection_navigation"] 
-      
+    branches: ["main", "object_detection_navigation"]
 
 jobs:
   build-and-test:
@@ -22,7 +21,13 @@ jobs:
         with:
           ros-distro: humble
 
-      # Step 3: Install dependencies (including lcov, if not already installed)
+      # Step 3: Resolve empy and em namespace conflict
+      - name: Resolve empy and em namespace conflict
+        run: |
+          pip uninstall -y em
+          pip install empy
+
+      # Step 4: Install dependencies (including lcov, if not already installed)
       - name: Install dependencies
         run: |
           sudo apt-get update
@@ -30,26 +35,21 @@ jobs:
           pip install --upgrade pip
           sudo apt-get install -y python3-colcon-common-extensions
 
-      # Step 4: Build the project
+      # Step 5: Build the project
       - name: Build the project
         run: |
           colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug
 
-      # Step 5: Run tests
+      # Step 6: Run tests and collect coverage data
       - name: Run tests and collect coverage data
         run: |
           colcon test 
           lcov --directory build/ --capture --output-file build/test_coverage.info
-          
-        # genhtml build/test_coverage.info --output-directory build/coverage-report
 
-      # Step 6: Upload coverage data to Codecov
+      # Step 7: Upload coverage data to Codecov
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} # Required for private repositories
+          token: ${{ secrets.CODECOV_TOKEN }}
           files: ${{github.workspace}}/build/test_coverage.info
-          fail_ci_if_error: true # optional (default = false)
-          verbose: true # optional (default = false)
-          disable_search: true # optional (default = false)
-          plugin: none         # optional (xcode, gcov, pycoverage)
+          fail_ci_if_error: true
