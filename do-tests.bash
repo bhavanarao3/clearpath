@@ -33,3 +33,8 @@ lcov --capture --directory build --output-file coverage.info
 lcov --remove coverage.info '/opt/*' '/usr/*' '*/test/*' --output-file coverage_filtered.info
 genhtml coverage_filtered.info --output-directory coverage_report
 
+
+# Print location of the generated file
+echo "Coverage report generated at:"
+pwd
+ls -l coverage_filtered.info
