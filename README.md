@@ -34,7 +34,6 @@ This repository contains the `DebrisDetector` node implementation, which uses RO
 - Publish debug images for visualization.
 - Modular design with ROS2 publishers, subscribers, and services.
 
----
 
 ## Dependencies
 Ensure the following dependencies are installed before building the package:
@@ -52,7 +51,6 @@ Ensure the following dependencies are installed before building the package:
 
 Install the required dependencies using your system package manager or ROS2 tools.
 
----
 
 ## Build Instructions
 
@@ -73,19 +71,6 @@ Install the required dependencies using your system package manager or ROS2 tool
    source install/setup.bash
    ```
 
----
-
-### Run the Node
-
-Launch the `DebrisDetector` node:
-```bash
-ros2 run <your_package_name> debris_detector
-```
-
-Ensure that the appropriate camera topics and odometry topics are available for the node to subscribe to.
-
----
-
 ### Testing
 
 Run the unit and integration tests for the package:
@@ -95,7 +80,6 @@ colcon test --event-handlers console_direct+
 
 If all tests pass, proceed to generate the coverage report.
 
----
 
 ### Generate Coverage Report
 
@@ -119,8 +103,6 @@ If all tests pass, proceed to generate the coverage report.
    firefox coverage_report/index.html
    ```
 
----
-
 ### Launch 
 
 To launch the node, run the following command:
@@ -129,15 +111,12 @@ ros2 launch project_clearpath collector_robot.launch.py
 ```
 
 A demo video is as follows: 
-[Watch the demo video]([https://drive.google.com/file/d/1Fyi_XzjUzuUIOucaIdy7Z6o0Lr2dtfaS/view?usp=sharing])
-
----
+[Watch the demo video](https://drive.google.com/file/d/1Fyi_XzjUzuUIOucaIdy7Z6o0Lr2dtfaS/view?usp=sharing)
 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
----
 
 
 
