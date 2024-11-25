@@ -111,7 +111,7 @@ ros2 launch project_clearpath collector_robot.launch.py
 ```
 
 A demo video is as follows: 
-[![Watch the video](https://drive.google.com/file/d/1Fyi_XzjUzuUIOucaIdy7Z6o0Lr2dtfaS/view?usp=sharing/0.jpg)](https://drive.google.com/file/d/1Fyi_XzjUzuUIOucaIdy7Z6o0Lr2dtfaS/view?usp=sharing)
+
 [Watch the demo video](https://drive.google.com/file/d/1Fyi_XzjUzuUIOucaIdy7Z6o0Lr2dtfaS/view?usp=sharing)
 
 ## License
